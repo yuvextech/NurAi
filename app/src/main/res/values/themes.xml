@@ -1,0 +1,30 @@
+<resources>
+    <style name="Theme.NurAiProject" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorOnPrimary">@color/text_on_primary</item>
+        <item name="colorPrimaryContainer">@color/colorControlNormal</item>
+        <item name="colorSecondary">@color/colorControlNormal</item>
+        <item name="colorOnSecondary">@color/text_primary</item>
+        <item name="android:statusBarColor">@color/colorPrimaryDark</item>
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="android:windowBackground">@color/background_light</item>
+        <item name="colorSurface">@color/surface_white</item>
+        <item name="colorOnSurface">@color/text_primary</item>
+        <item name="cardViewStyle">@style/Widget.NurAi.CardView</item>
+        <item name="bottomNavigationStyle">@style/Widget.NurAi.BottomNavigationView</item>
+        <item name="colorSecondaryContainer">@color/my_secondary_container</item>
+        <item name="colorOnSecondaryContainer">@color/colorPrimary</item>
+    </style>
+    <style name="Widget.NurAi.CardView" parent="Widget.Material3.CardView.Elevated">
+        <item name="cardBackgroundColor">@color/surface_white</item>
+        <item name="cardCornerRadius">16dp</item>
+        <item name="cardElevation">2dp</item>
+        <item name="strokeColor">@color/card_stroke</item>
+        <item name="strokeWidth">1dp</item>
+    </style>
+    <style name="Widget.NurAi.BottomNavigationView" parent="Widget.Material3.BottomNavigationView">
+        <item name="backgroundTint">@color/surface_white</item>
+        <item name="itemIconTint">@color/colorPrimary</item>
+        <item name="itemTextColor">@color/text_secondary</item>
+    </style>
+</resources>
