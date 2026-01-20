@@ -1,0 +1,47 @@
+<resources>
+    <string name="app_name" translatable="false">NurAi</string>
+    <string name="welcome_message">As-salamu alaykum</string>
+    <string name="nav_home">Home</string>
+    <string name="nav_quran">Quran</string>
+    <string name="nav_ai_chat">AI Chat</string>
+    <string name="nav_discover">Discover</string>
+    <string name="nav_settings">Settings</string>
+    <string name="header_wisdom">Daily Wisdom</string>
+    <string name="header_recent">Recently Read</string>
+    <string name="quran_index">Quran Index</string>
+    <string name="quran_audio">Quran Audio</string>
+    <string name="quran_read">Quran Read</string>
+    <string name="search_hint">Search Surah or Verse...</string>
+    <string name="tab_surah">Surah</string>
+    <string name="tab_juz">Juz\'</string>
+    <string name="tab_bookmarks">Bookmarks</string>
+    <string name="ai_name">Nur\'Ai Assistant</string>
+    <string name="chat_hint">Ask a question about Islam...</string>
+    <string name="ai_greeting">How can I assist your spiritual journey today?</string>
+    <string name="ask_ai_verse">Ask AI about this verse</string>
+    <string name="pref_profile">Profile Settings</string>
+    <string name="pref_notifications">Notifications</string>
+    <string name="pref_language">App Language</string>
+    <string name="description">Light of the Quran with the power of Ai</string>
+    <string name="ai_welcome_message">As-salamu alaykum! I am Nur\'Ai. You can ask me for Quranic explanations, prayer times, or daily Duas.</string>
+    <string name="welcome_title">Welcome to Nur\'Ai</string>
+    <string name="welcome_subtitle">Your AI-powered spiritual companion</string>
+    <string name="get_started">Get Started</string>
+    <string name="nav_names">99 Names</string>
+    <string name="daily_ayah">Ayah of the Day</string>
+    <string name="daily_hadith">Daily Hadith</string>
+    <string name="view_all">View All</string>
+    <string name="explore_wisdom">Explore Spiritual Wisdom</string>
+    <string name="ai_intro_msg">Assalamu Alaikum! I am Nur, your AI assistant. How can I help you deepen your knowledge today?</string>
+    <string name="ai_disclaimer">Nur\'Ai is an AI companion. For critical fatwas, please consult a qualified scholar.</string>
+    <string name="error_ai_connection">Unable to reach Nur\'Ai. Please check your connection.</string>
+    <string name="last_read">Continue Reading</string>
+    <string name="names_title">Asma-ul-Husna</string>
+    <string name="play_audio">Play Pronunciation</string>
+    <string name="ai_explain_name">Ask AI about this Name</string>
+    <string name="settings_notifications">Prayer Notifications</string>
+    <string name="settings_theme">App Theme</string>
+    <string name="about_title">About Nur\'Ai</string>
+    <string name="about_desc">Nur\'Ai blends modern AI technology with timeless spiritual wisdom to serve the Ummah.</string>
+    <string name="version_label">Version 1.0.0</string>
+</resources>

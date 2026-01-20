@@ -1,0 +1,19 @@
+<resources>
+    <color name="colorAccent">#89C4A1</color>
+    <color name="colorPrimary">#66A67D</color>
+    <color name="colorPrimaryDark">#4A7A5C</color>
+    <color name="colorControlHighlight">#F4F9F6</color>
+    <color name="colorControlNormal">#89C4A1</color>
+    <color name="background_light">#F4F9F6</color>
+    <color name="surface_white">#FFFFFF</color>
+    <color name="card_stroke">#E0EAE3</color>
+    <color name="text_primary">#2D3A32</color>
+    <color name="text_secondary">#6B7C72</color>
+    <color name="text_on_primary">#FFFFFF</color>
+    <color name="accent_gold">#D4AF37</color>
+    <color name="error_red">#B00020</color>
+    <color name="success_green">#4CAF50</color>
+    <color name="chat_user_bubble">#E2F3E9</color>
+    <color name="chat_ai_bubble">#FFFFFF</color>
+    <color name="my_secondary_container">#E2F3E9</color>
+</resources>

@@ -1,0 +1,56 @@
+<ScrollView
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="vertical"
+	android:background="@drawable/bg2">
+	<LinearLayout
+		android:id="@+id/linear1"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:layout_marginTop="200dp"
+		android:orientation="vertical">
+		<com.google.android.material.button.MaterialButtonToggleGroup
+			android:id="@+id/toggleButton"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_marginTop="12dp"
+			android:orientation="horizontal"
+			android:layout_gravity="center_horizontal">
+			<Button
+				android:id="@+id/button1"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:padding="8dp"
+				android:text="@string/tab_surah"
+				android:textSize="12sp"
+				android:textColor="#000000"
+				style="?attr/materialButtonOutlinedStyle" />
+			<Button
+				android:id="@+id/button2"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:padding="8dp"
+				android:text="@string/tab_juz"
+				android:textSize="12sp"
+				android:textColor="#000000"
+				style="?attr/materialButtonOutlinedStyle" />
+			<Button
+				android:id="@+id/button3"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:padding="8dp"
+				android:text="@string/tab_bookmarks"
+				android:textSize="12sp"
+				android:textColor="#000000"
+				style="?attr/materialButtonOutlinedStyle" />
+		</com.google.android.material.button.MaterialButtonToggleGroup>
+		<androidx.viewpager.widget.ViewPager
+			android:id="@+id/viewpager1"
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"
+			android:padding="8dp" />
+	</LinearLayout>
+</ScrollView>

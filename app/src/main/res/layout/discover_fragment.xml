@@ -1,0 +1,47 @@
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:background="@color/background_light">
+	<com.google.android.material.appbar.AppBarLayout
+		android:id="@+id/app_bar_layout7"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:background="@android:color/transparent"
+		app:elevation="0dp">
+		<LinearLayout
+			android:id="@+id/linear8"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:padding="16dp"
+			android:orientation="vertical">
+			<TextView
+				android:id="@+id/textview4"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="@string/nav_discover"
+				android:textSize="24sp"
+				android:textStyle="bold" />
+			<EditText
+				android:id="@+id/etDiscoverSearch"
+				android:layout_width="match_parent"
+				android:layout_height="50dp"
+				android:layout_marginTop="16dp"
+				android:background="@drawable/bg_chat_input"
+				android:textSize="14sp"
+				android:hint="Search topics, Hadith, or Duas..."
+				android:drawableStart="@drawable/ic_search"
+				android:drawablePadding="12dp"
+				android:paddingStart="16dp" />
+		</LinearLayout>
+	</com.google.android.material.appbar.AppBarLayout>
+	<androidx.recyclerview.widget.RecyclerView
+		android:id="@+id/rvDiscoverGrid"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:paddingHorizontal="8dp"
+		app:layout_behavior="@string/appbar_scrolling_view_behavior"
+		tools:listitem="@layout/item_discover_category" />
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

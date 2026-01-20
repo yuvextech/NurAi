@@ -1,0 +1,105 @@
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="vertical">
+	<LinearLayout
+		android:id="@+id/linear1"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:orientation="vertical">
+		<LinearLayout
+			android:id="@+id/top"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:orientation="vertical">
+			<TextView
+				android:id="@+id/surahName"
+				android:focusable="false"
+				android:layout_width="wrap_content"
+				android:layout_height="40dp"
+				android:background="@drawable/chapter_hdr"
+				android:gravity="center_horizontal|center_vertical"
+				android:text="الفاتحة"
+				android:textSize="20sp"
+				android:textColor="@color/text_primary" />
+			<ImageView
+				android:id="@+id/bismillah"
+				android:focusable="false"
+				android:layout_width="250dp"
+				android:layout_height="50dp"
+				android:src="@drawable/basmala"
+				android:scaleType="fitXY"
+				android:layout_gravity="center_horizontal" />
+		</LinearLayout>
+		<TextView
+			android:id="@+id/verseText"
+			android:focusable="false"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:gravity="right"
+			android:text="ٱلۡحَمۡدُ لِلَّهِ رَبِّ ٱلۡعَٰلَمِينَ"
+			android:textSize="25sp"
+			android:textColor="@color/text_primary"
+			android:layout_gravity="right"
+			style="@style/QuranicTextStyle"
+			android:lineSpacingMultiplier="1.2"
+			android:bufferType="spannable" />
+		<LinearLayout
+			android:id="@+id/bottom"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:orientation="vertical">
+			<TextView
+				android:id="@+id/translationText"
+				android:focusable="false"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:text="[All] praise is [due] to Allah, Lord of the worlds"
+				android:textSize="16sp"
+				android:textColor="@color/text_secondary" />
+			<LinearLayout
+				android:id="@+id/linear2"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:orientation="horizontal"
+				android:layout_gravity="right">
+				<ImageView
+					android:id="@+id/copyBtn"
+					android:focusable="false"
+					android:layout_width="40dp"
+					android:layout_height="40dp"
+					android:padding="8dp"
+					android:src="@drawable/copy"
+					android:scaleType="fitXY"
+					app:tint="@color/colorPrimary" />
+				<ImageView
+					android:id="@+id/shareBtn"
+					android:focusable="false"
+					android:layout_width="40dp"
+					android:layout_height="40dp"
+					android:padding="8dp"
+					android:src="@drawable/share_1"
+					android:scaleType="fitXY" />
+				<ImageView
+					android:id="@+id/bookmarkBtn"
+					android:focusable="false"
+					android:layout_width="40dp"
+					android:layout_height="40dp"
+					android:padding="8dp"
+					android:src="@drawable/bookmark_1"
+					android:scaleType="fitXY" />
+			</LinearLayout>
+			<ImageView
+				android:id="@+id/imageview1"
+				android:focusable="false"
+				android:layout_width="300dp"
+				android:layout_height="25dp"
+				android:src="@drawable/ayah_divider"
+				android:scaleType="fitXY"
+				android:layout_gravity="center_horizontal" />
+		</LinearLayout>
+	</LinearLayout>
+</LinearLayout>
