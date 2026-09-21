@@ -1,0 +1,117 @@
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="vertical"
+	android:background="@drawable/bg2">
+	<LinearLayout
+		android:id="@+id/linear1"
+		android:layout_width="match_parent"
+		android:layout_height="200dp"
+		android:orientation="vertical">
+		<LinearLayout
+			android:id="@+id/linearTop"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:gravity="center_horizontal|center_vertical"
+			android:orientation="horizontal">
+			<TextView
+				android:id="@+id/textview9"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:padding="8dp"
+				android:text="@string/nav_quran"
+				android:textSize="25sp"
+				android:textStyle="bold"
+				android:textColor="@color/text_primary" />
+			<ImageView
+				android:id="@+id/imageview3"
+				android:layout_width="40dp"
+				android:layout_height="40dp"
+				android:src="@drawable/quran_al_kareem"
+				android:scaleType="fitXY"
+				app:tint="@color/text_primary" />
+			<LinearLayout
+				android:id="@+id/linear4"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:padding="8dp"
+				android:orientation="vertical"
+				android:layout_weight="1" />
+			<ImageView
+				android:id="@+id/imageview1"
+				android:layout_width="40dp"
+				android:layout_height="40dp"
+				android:padding="8dp"
+				android:src="@drawable/ic_search"
+				android:scaleType="fitXY"
+				app:tint="@color/text_primary" />
+			<ImageView
+				android:id="@+id/imageview2"
+				android:layout_width="40dp"
+				android:layout_height="40dp"
+				android:padding="8dp"
+				android:src="@drawable/settings"
+				android:scaleType="fitXY"
+				app:tint="@color/text_primary" />
+		</LinearLayout>
+		<TextView
+			android:id="@+id/textview10"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:paddingLeft="8dp"
+			android:paddingRight="8dp"
+			android:paddingBottom="8dp"
+			android:text="@string/description"
+			android:textSize="12sp"
+			android:textColor="@color/text_primary" />
+	</LinearLayout>
+	<LinearLayout
+		android:id="@+id/linear3"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:background="@color/surface"
+		android:orientation="vertical">
+		<com.google.android.material.button.MaterialButtonToggleGroup
+			android:id="@+id/toggleButton"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_marginTop="12dp"
+			android:orientation="horizontal"
+			android:layout_gravity="center_horizontal">
+			<com.google.android.material.button.MaterialButton
+				android:id="@+id/button1"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:padding="8dp"
+				android:text="@string/tab_surah"
+				android:textSize="12sp"
+				android:textColor="#000000"
+				style="?attr/materialButtonOutlinedStyle" />
+			<com.google.android.material.button.MaterialButton
+				android:id="@+id/button2"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:padding="8dp"
+				android:text="@string/tab_juz"
+				android:textSize="12sp"
+				android:textColor="#000000"
+				style="?attr/materialButtonOutlinedStyle" />
+			<com.google.android.material.button.MaterialButton
+				android:id="@+id/button3"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:padding="8dp"
+				android:text="@string/tab_bookmarks"
+				android:textSize="12sp"
+				android:textColor="#000000"
+				style="?attr/materialButtonOutlinedStyle" />
+		</com.google.android.material.button.MaterialButtonToggleGroup>
+		<androidx.viewpager2.widget.ViewPager2
+			android:id="@+id/viewPager21"
+			android:layout_width="match_parent"
+			android:layout_height="match_parent" />
+	</LinearLayout>
+</LinearLayout>

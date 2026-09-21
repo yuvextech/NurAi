@@ -1,0 +1,69 @@
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="vertical">
+	<LinearLayout
+		android:id="@+id/linear1"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:orientation="vertical">
+		<TextView
+			android:id="@+id/surahName"
+			android:focusable="false"
+			android:layout_width="match_parent"
+			android:layout_height="50dp"
+			android:padding="8dp"
+			android:background="@drawable/chapter_header"
+			android:gravity="center_horizontal|center_vertical"
+			android:text="surah001"
+			android:textSize="30sp"
+			android:textColor="@color/text_primary" />
+		<ImageView
+			android:id="@+id/bismillah"
+			android:layout_width="250dp"
+			android:layout_height="50dp"
+			android:src="@drawable/basmala"
+			android:scaleType="fitXY"
+			android:layout_gravity="center_horizontal"
+			android:focusable="false"
+			app:tint="@color/text_primary" />
+		<TextView
+			android:id="@+id/verseText"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:gravity="right"
+			android:text="ٱلۡحَمۡدُ لِلَّهِ رَبِّ ٱلۡعَٰلَمِينَ"
+			android:textSize="25sp"
+			android:textColor="@color/text_primary"
+			android:layout_gravity="right"
+			android:focusable="false"
+			style="@style/QuranicTextStyle"
+			android:lineSpacingMultiplier="1.2"
+			android:bufferType="spannable" />
+		<TextView
+			android:id="@+id/translationText"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:text="[All] praise is [due] to Allah, Lord of the worlds"
+			android:textSize="16sp"
+			android:textColor="@color/text_secondary"
+			android:focusable="false" />
+		<LinearLayout
+			android:id="@+id/bottom"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:orientation="vertical">
+			<ImageView
+				android:id="@+id/imageview1"
+				android:layout_width="300dp"
+				android:layout_height="25dp"
+				android:src="@drawable/ayah_divider"
+				android:scaleType="fitXY"
+				android:layout_gravity="center_horizontal"
+				android:focusable="false" />
+		</LinearLayout>
+	</LinearLayout>
+</LinearLayout>

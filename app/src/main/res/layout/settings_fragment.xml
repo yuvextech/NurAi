@@ -1,0 +1,107 @@
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:background="@color/backgroundColor"
+	android:orientation="vertical">
+	<ScrollView
+		android:id="@+id/vscroll2"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent">
+		<LinearLayout
+			android:id="@+id/linear7"
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"
+			android:padding="16dp"
+			android:background="@color/backgroundColor"
+			android:orientation="vertical">
+			<TextView
+				android:id="@+id/textview9"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:paddingTop="8dp"
+				android:paddingRight="8dp"
+				android:paddingBottom="16dp"
+				android:text="@string/nav_settings"
+				android:textSize="25sp"
+				android:textStyle="bold" />
+			<TextView
+				android:id="@+id/textview3"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_marginBottom="8dp"
+				android:text="@string/pref_quran"
+				android:textSize="14sp"
+				android:textStyle="bold" />
+			<com.google.android.material.card.MaterialCardView
+				android:id="@+id/cardview3"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_marginBottom="24dp"
+				style="@style/Widget.NurAi.CardView">
+				<LinearLayout
+					android:id="@+id/linear8"
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:orientation="vertical">
+					<RelativeLayout
+						android:id="@+id/relativelayout5"
+						android:layout_width="match_parent"
+						android:layout_height="wrap_content"
+						android:padding="16dp"
+						android:background="#FFFFFF"
+						android:focusable="true" />
+					<RelativeLayout
+						android:id="@+id/relativelayout6"
+						android:layout_width="match_parent"
+						android:layout_height="wrap_content"
+						android:padding="16dp"
+						android:background="#FFFFFF"
+						android:focusable="true" />
+				</LinearLayout>
+			</com.google.android.material.card.MaterialCardView>
+			<TextView
+				android:id="@+id/textview4"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_marginBottom="8dp"
+				android:text="App Preferences"
+				android:textSize="14sp"
+				android:textStyle="bold" />
+			<com.google.android.material.card.MaterialCardView
+				android:id="@+id/cardview4"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_marginBottom="24dp"
+				style="@style/Widget.NurAi.CardView">
+				<LinearLayout
+					android:id="@+id/linear9"
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:orientation="vertical">
+					<RelativeLayout
+						android:id="@+id/relativelayout7"
+						android:layout_width="match_parent"
+						android:layout_height="wrap_content"
+						android:padding="16dp"
+						android:background="#FFFFFF"
+						android:focusable="true" />
+					<View
+						android:id="@+id/view11"
+						android:layout_width="match_parent"
+						android:layout_height="1dp"
+						android:background="#FFFFFF" />
+					<RelativeLayout
+						android:id="@+id/relativelayout8"
+						android:layout_width="match_parent"
+						android:layout_height="wrap_content"
+						android:padding="16dp"
+						android:background="#FFFFFF"
+						android:focusable="true" />
+				</LinearLayout>
+			</com.google.android.material.card.MaterialCardView>
+		</LinearLayout>
+	</ScrollView>
+</LinearLayout>
