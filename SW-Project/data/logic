@@ -1,0 +1,913 @@
+@QuranActivity.java_var
+0:withTranslate
+2:json3
+2:currentTap
+2:selectedVerse
+2:names
+2:totally
+2:translations
+2:quran
+2:sorahIndex
+3:hashMap
+2:id
+2:idSurah
+6:private int idSurahInt
+
+@InfoBottomdialogFragmentActivity.java_var
+2:currentTap
+2:selectedVerse
+2:sako
+3:map
+2:id
+2:AyaId
+
+@ChatFragmentActivity.java_var
+3:map
+2:sako
+2:data
+
+@HomeFragmentActivity.java_var
+1:position
+1:num
+
+@QuranIndexFragmentActivity.java_var
+2:json3
+
+@QuranActivity.java_list
+3:surah
+3:quranListMap
+3:listState
+
+@ChatFragmentActivity.java_list
+3:chats
+
+@HomeFragmentActivity.java_list
+3:listmap
+3:items
+
+@DiscoverFragmentActivity.java_list
+3:list
+
+@QuranIndexFragmentActivity.java_list
+3:quran_list
+
+@QuranActivity.java_func
+Ui:Ui
+library:library
+set:set TextView_ %m.textview.textview as json array subMain key value %s.key
+setUp:setUp main key %s.key
+get:get json main data key at %d.num
+createJSONObject:createJSONObject %s.string
+createJSONArray:createJSONArray %s.string
+
+@InfoBottomdialogFragmentActivity.java_func
+Ui:Ui
+
+@MainActivity.java_func
+currently:currently
+
+@ChatFragmentActivity.java_func
+Ui:Ui
+
+@HomeFragmentActivity.java_func
+rippleRoundStroke:rippleRoundStroke %m.view.view onFocus %s.focus onPressed %s.pressed setRound %d.round setStroke %d.stroke setStrokeColor %s.strokeclr
+Ui:Ui
+
+@SettingsBottomdialogFragmentActivity.java_func
+Ui:Ui
+
+@DiscoverFragmentActivity.java_func
+Ui:Ui
+
+@QuranFragmentActivity.java_func
+Ui:Ui
+
+@QuranActivity.java_components
+{"componentId":"sh","param1":"settings","param2":"","param3":"","type":2}
+{"componentId":"mm","param1":"","param2":"","param3":"","type":49}
+{"componentId":"mm2","param1":"","param2":"","param3":"","type":49}
+{"componentId":"mm3","param1":"","param2":"","param3":"","type":49}
+
+@InfoBottomdialogFragmentActivity.java_components
+{"componentId":"yg","param1":"","param2":"","param3":"","type":49}
+{"componentId":"askAi","param1":"","param2":"","param3":"","type":17}
+
+@MainActivity.java_components
+{"componentId":"fa","param1":"","param2":"","param3":"","type":27}
+
+@SplashActivity.java_components
+{"componentId":"go","param1":"","param2":"","param3":"","type":1}
+{"componentId":"wait","param1":"","param2":"","param3":"","type":5}
+{"componentId":"AiChat","param1":"Chatting","param2":"","param3":"","type":2}
+
+@ChatFragmentActivity.java_components
+{"componentId":"speechRecognition","param1":"","param2":"","param3":"","type":19}
+{"componentId":"askAi","param1":"","param2":"","param3":"","type":17}
+{"componentId":"aiChat","param1":"Chatting","param2":"","param3":"","type":2}
+{"componentId":"setting","param1":"settings","param2":"","param3":"","type":2}
+
+@HomeFragmentActivity.java_components
+{"componentId":"seven","param1":"","param2":"","param3":"","type":5}
+{"componentId":"go","param1":"","param2":"","param3":"","type":1}
+
+@QuranIndexFragmentActivity.java_components
+{"componentId":"go","param1":"","param2":"","param3":"","type":1}
+
+@QuranFragmentActivity.java_components
+{"componentId":"kk","param1":"","param2":"","param3":"","type":49}
+
+@QuranActivity.java_events
+{"eventName":"onBindCustomView","eventType":1,"targetId":"listview1","targetType":9}
+{"eventName":"MoreBlockMaker","eventType":2,"targetId":"mm","targetType":49}
+{"eventName":"MoreBlockMaker","eventType":2,"targetId":"mm2","targetType":49}
+{"eventName":"MoreBlockMaker","eventType":2,"targetId":"mm3","targetType":49}
+{"eventName":"OnTouched","eventType":1,"targetId":"textView","targetType":4}
+{"eventName":"onClick","eventType":1,"targetId":"options","targetType":6}
+{"eventName":"onStop","eventType":3,"targetId":"onStop","targetType":0}
+{"eventName":"onItemClicked","eventType":1,"targetId":"listview1","targetType":9}
+{"eventName":"onClick","eventType":1,"targetId":"imageview3","targetType":6}
+
+@InfoBottomdialogFragmentActivity.java_events
+{"eventName":"MoreBlockMaker","eventType":2,"targetId":"yg","targetType":49}
+{"eventName":"onClick","eventType":1,"targetId":"textview4","targetType":4}
+{"eventName":"onClick","eventType":1,"targetId":"textview5","targetType":4}
+{"eventName":"onClick","eventType":1,"targetId":"textview6","targetType":4}
+{"eventName":"onResponse","eventType":2,"targetId":"askAi","targetType":17}
+{"eventName":"onErrorResponse","eventType":2,"targetId":"askAi","targetType":17}
+{"eventName":" onLongClick","eventType":1,"targetId":"tvAiMessage","targetType":4}
+{"eventName":"Import","eventType":3,"targetId":"Import","targetType":0}
+{"eventName":"onClick","eventType":1,"targetId":"copyBtn","targetType":6}
+{"eventName":"onClick","eventType":1,"targetId":"shareBtn","targetType":6}
+{"eventName":"onClick","eventType":1,"targetId":"bookmarkBtn","targetType":6}
+{"eventName":"onClick","eventType":1,"targetId":"imageview3","targetType":6}
+
+@MainActivity.java_events
+{"eventName":"onNavigationItemSelected","eventType":1,"targetId":"bottomnavigation1","targetType":32}
+{"eventName":"onFragmentAdded","eventType":2,"targetId":"fa","targetType":27}
+{"eventName":"onPageSelected","eventType":1,"targetId":"viewpager1","targetType":31}
+{"eventName":"Import","eventType":3,"targetId":"Import","targetType":0}
+{"eventName":"onBackPressed","eventType":3,"targetId":"onBackPressed","targetType":0}
+
+@ChatFragmentActivity.java_events
+{"eventName":"onBindCustomView","eventType":1,"targetId":"messages","targetType":48}
+{"eventName":"onClick","eventType":1,"targetId":"micBtn","targetType":6}
+{"eventName":"onClick","eventType":1,"targetId":"sendBtn","targetType":6}
+{"eventName":"onSpeechResult","eventType":2,"targetId":"speechRecognition","targetType":19}
+{"eventName":"onSpeechError","eventType":2,"targetId":"speechRecognition","targetType":19}
+{"eventName":"Import","eventType":3,"targetId":"Import","targetType":0}
+{"eventName":"onResponse","eventType":2,"targetId":"askAi","targetType":17}
+{"eventName":"onErrorResponse","eventType":2,"targetId":"askAi","targetType":17}
+{"eventName":"onClick","eventType":1,"targetId":"imageview2","targetType":6}
+
+@HomeFragmentActivity.java_events
+{"eventName":"onBindCustomView","eventType":1,"targetId":"recyclerview1","targetType":48}
+{"eventName":"onBindCustomView","eventType":1,"targetId":"viewpagerSlider1","targetType":31}
+{"eventName":"onPause","eventType":3,"targetId":"onPause","targetType":0}
+{"eventName":"onClick","eventType":1,"targetId":"btnAskAiWisdom","targetType":6}
+{"eventName":"onClick","eventType":1,"targetId":"btnShareWisdom","targetType":6}
+
+@DiscoverFragmentActivity.java_events
+{"eventName":"onBindCustomView","eventType":1,"targetId":"rvDiscoverGrid","targetType":48}
+
+@QuranFragmentActivity.java_events
+{"eventName":"Import","eventType":3,"targetId":"Import","targetType":0}
+{"eventName":"onClick","eventType":1,"targetId":"button1","targetType":3}
+{"eventName":"onClick","eventType":1,"targetId":"button2","targetType":3}
+{"eventName":"onClick","eventType":1,"targetId":"button3","targetType":3}
+{"eventName":"MoreBlockMaker","eventType":2,"targetId":"kk","targetType":49}
+{"eventName":"onClick","eventType":1,"targetId":"imageview2","targetType":6}
+
+@QuranIndexFragmentActivity.java_events
+{"eventName":"onBindCustomView","eventType":1,"targetId":"listview1","targetType":9}
+{"eventName":"onItemClicked","eventType":1,"targetId":"listview1","targetType":9}
+
+@QuranActivity.java_library_moreBlock
+{"color":-16729254,"id":"14","nextBlock":13,"opCode":"addSourceDirectly","parameters":["}"],"spec":"add source directly %s.inputOnly","subStack1":-1,"subStack2":-1,"type":" ","typeName":""}
+{"color":-16729254,"id":"13","nextBlock":15,"opCode":"addSourceDirectly","parameters":["private org.json.JSONArray jsonarray;\nprivate org.json.JSONObject json;\nprivate org.json.JSONObject json2;"],"spec":"add source directly %s.inputOnly","subStack1":-1,"subStack2":-1,"type":" ","typeName":""}
+{"color":-16729254,"id":"15","nextBlock":-1,"opCode":"addSourceDirectly","parameters":["public void ArabWare () {"],"spec":"add source directly %s.inputOnly","subStack1":-1,"subStack2":-1,"type":" ","typeName":""}
+
+@QuranActivity.java_setUp_moreBlock
+{"color":-16729254,"id":"15","nextBlock":-1,"opCode":"addSourceDirectly","parameters":["try{\n\tjsonarray \u003d json.getJSONArray(_key);\r\n}catch(Exception e){\n\t \n}"],"spec":"add source directly %s.inputOnly","subStack1":-1,"subStack2":-1,"type":" ","typeName":""}
+
+@QuranActivity.java_get_moreBlock
+{"color":-16729254,"id":"15","nextBlock":-1,"opCode":"addSourceDirectly","parameters":["try {\n        // We save the result to json2 (the verse) \n        // AND json (the surah) so they can be used interchangeably\n        json2 \u003d jsonarray.getJSONObject((int) _num);\n        json \u003d jsonarray.getJSONObject((int) _num); \n    } catch(Exception e) {\n    }"],"spec":"add source directly %s.inputOnly","subStack1":-1,"subStack2":-1,"type":" ","typeName":""}
+
+@QuranActivity.java_mm2_MoreBlockMaker
+{"color":-16729254,"id":"10","nextBlock":11,"opCode":"addSourceDirectly","parameters":["private void copySelectedVerse() {\n    if (selectedVerse.isEmpty()) {\n        Toast.makeText(this, \"Please select a verse first\", Toast.LENGTH_SHORT).show();\n        return;\n    }\n\n    // Regex to remove the marker: ﴿ followed by digits followed by ﴾\n    // We also trim extra spaces that might be left behind\n    String cleanText \u003d selectedVerse.replaceAll(\"﴿\\\\s*\\\\d+\\\\s*﴾\", \"\").trim();\n\n    android.content.ClipboardManager clipboard \u003d (android.content.ClipboardManager) getSystemService(Context.CLIPBOARD_SERVICE);\n    android.content.ClipData clip \u003d android.content.ClipData.newPlainText(\"Selected Verse\", cleanText);\n    if (clipboard !\u003d null) {\n        clipboard.setPrimaryClip(clip);\n    }\n}"],"spec":"add source directly %s.inputOnly","subStack1":-1,"subStack2":-1,"type":" ","typeName":""}
+{"color":-16729254,"id":"11","nextBlock":12,"opCode":"addSourceDirectly","parameters":["private void jumpToVerse(int verseNumber) {\n    String text \u003d textView.getText().toString();\n    // Search for the specific verse marker ﴿verseNumber﴾\n    Pattern pattern \u003d Pattern.compile(\"﴿\\\\s*\" + verseNumber + \"\\\\s*﴾\");\n    Matcher matcher \u003d pattern.matcher(text);\n\n    if (matcher.find()) {\n        Layout layout \u003d textView.getLayout();\n        if (layout !\u003d null) {\n            // Get the line number where the verse marker starts\n            int line \u003d layout.getLineForOffset(matcher.start());\n            // Get the vertical top coordinate of that line\n            int y \u003d layout.getLineTop(line);\n\n            // Scroll the ScrollView to that position\n            vscroll1.smoothScrollTo(0, y);\n            \n            // Highlight the verse automatically\n            selectVerse(textView, matcher.start());\n        }\n    } else {\n        Toast.makeText(this, \"Verse not found\", Toast.LENGTH_SHORT).show();\n    }\n}"],"spec":"add source directly %s.inputOnly","subStack1":-1,"subStack2":-1,"type":" ","typeName":""}
+{"color":-16729254,"id":"12","nextBlock":-1,"opCode":"addSourceDirectly","parameters":["private void showJumpDialog() {\n    final EditText input \u003d new EditText(this);\n    input.setInputType(android.text.InputType.TYPE_CLASS_NUMBER);\n    input.setHint(\"Enter verse number\");\n\n    new AlertDialog.Builder(this)\n        .setTitle(\"Jump to Verse\")\n        .setView(input)\n        .setPositiveButton(\"Go\", new DialogInterface.OnClickListener() {\n            public void onClick(DialogInterface dialog, int which) {\n                String val \u003d input.getText().toString();\n                if (!val.isEmpty()) {\n                    jumpToVerse(Integer.parseInt(val));\n                }\n            }\n        })\n        .setNegativeButton(\"Cancel\", null)\n        .show();\n}"],"spec":"add source directly %s.inputOnly","subStack1":-1,"subStack2":-1,"type":" ","typeName":""}
+
+@QuranActivity.java_Ui_moreBlock
+{"color":-10589996,"id":"150","nextBlock":151,"opCode":"setTextColor","parameters":["toolBarText","R.color.text_on_primary"],"spec":"%m.textview setTextColor %m.color","subStack1":-1,"subStack2":-1,"type":" ","typeName":""}
+{"color":-10589996,"id":"151","nextBlock":144,"opCode":"setTextColor","parameters":["toolBarSubText","R.color.text_on_primary"],"spec":"%m.textview setTextColor %m.color","subStack1":-1,"subStack2":-1,"type":" ","typeName":""}
+{"color":-16729254,"id":"144","nextBlock":11,"opCode":"addSourceDirectly","parameters":["//  Get the intent data FIRST\n    sorahIndex \u003d getIntent().getStringExtra(\"sorah\");\n    \n    // Safety check: if the intent is missing data, don\u0027t proceed\n    if (sorahIndex \u003d\u003d null || sorahIndex.isEmpty()) {\n        Log.e(\"QuranActivity\", \"Sorah index is missing!\");\n        return; \n    }"],"spec":"add source directly %s.inputOnly","subStack1":-1,"subStack2":-1,"type":" ","typeName":""}
+{"color":-4628993,"id":"11","nextBlock":20,"opCode":"addCustomVariable","parameters":["// Stores generated drawables to save memory and CPU\nprivate final Map\u003cString, Drawable\u003e drawableCache \u003d new HashMap\u003c\u003e();"],"spec":"Custom Variable Block: add variable %s","subStack1":-1,"subStack2":-1,"type":" ","typeName":""}
+{"color":-16729254,"id":"20","nextBlock":21,"opCode":"addSourceDirectly","parameters":["try {\n  java.io.InputStream is \u003d this.getAssets().open(\"quran_en.json\");\n           int size \u003d is.available();\n           byte[] buffer \u003d new byte[size];\n           is.read(buffer);\n           is.close();\n           json3 \u003d new String(buffer, \"UTF-8\");\n "],"spec":"add source directly %s.inputOnly","subStack1":-1,"subStack2":-1,"type":" ","typeName":""}
+{"color":-7711273,"id":"21","nextBlock":23,"opCode":"definedFunc","parameters":["@22"],"spec":"createJSONArray %s.string","subStack1":-1,"subStack2":-1,"type":" ","typeName":""}
+{"color":-559806,"id":"22","nextBlock":-1,"opCode":"getVar","parameters":[],"spec":"json3","subStack1":-1,"subStack2":-1,"type":"s","typeName":""}
+{"color":-7711273,"id":"23","nextBlock":36,"opCode":"definedFunc","parameters":["@24"],"spec":"get json main data key at %d.num","subStack1":-1,"subStack2":-1,"type":" ","typeName":""}
+{"color":-16729254,"id":"24","nextBlock":-1,"opCode":"toNumber","parameters":["@145"],"spec":"toNumber %s","subStack1":-1,"subStack2":-1,"type":"d","typeName":""}
+{"color":-559806,"id":"145","nextBlock":-1,"opCode":"getVar","parameters":[],"spec":"sorahIndex","subStack1":-1,"subStack2":-1,"type":"s","typeName":""}
+{"color":-16729254,"id":"36","nextBlock":75,"opCode":"strToListMap","parameters":["@37","surah"],"spec":"JSON %s to %m.listMap","subStack1":-1,"subStack2":-1,"type":" ","typeName":""}
+{"color":-16729254,"id":"37","nextBlock":-1,"opCode":"asdString","parameters":["jsonarray.toString()"],"spec":"string %s.inputOnly","subStack1":-1,"subStack2":-1,"type":"s","typeName":""}
+{"color":-559806,"id":"75","nextBlock":76,"opCode":"setVarString","parameters":["names","@79"],"spec":"set %m.varStr to %s","subStack1":-1,"subStack2":-1,"type":" ","typeName":""}
+{"color":-3123898,"id":"79","nextBlock":-1,"opCode":"getAtListMap","parameters":["@80","name","surah"],"spec":"get value at %d key %s of %m.listMap","subStack1":-1,"subStack2":-1,"type":"s","typeName":""}
+{"color":-16729254,"id":"80","nextBlock":-1,"opCode":"toNumber","parameters":["@146"],"spec":"toNumber %s","subStack1":-1,"subStack2":-1,"type":"d","typeName":""}
+{"color":-559806,"id":"146","nextBlock":-1,"opCode":"getVar","parameters":[],"spec":"sorahIndex","subStack1":-1,"subStack2":-1,"type":"s","typeName":""}
+{"color":-559806,"id":"76","nextBlock":77,"opCode":"setVarString","parameters":["translations","@82"],"spec":"set %m.varStr to %s","subStack1":-1,"subStack2":-1,"type":" ","typeName":""}
+{"color":-3123898,"id":"82","nextBlock":-1,"opCode":"getAtListMap","parameters":["@83","translation","surah"],"spec":"get value at %d key %s of %m.listMap","subStack1":-1,"subStack2":-1,"type":"s","typeName":""}
+{"color":-16729254,"id":"83","nextBlock":-1,"opCode":"toNumber","parameters":["@147"],"spec":"toNumber %s","subStack1":-1,"subStack2":-1,"type":"d","typeName":""}
+{"color":-559806,"id":"147","nextBlock":-1,"opCode":"getVar","parameters":[],"spec":"sorahIndex","subStack1":-1,"subStack2":-1,"type":"s","typeName":""}
+{"color":-559806,"id":"77","nextBlock":152,"opCode":"setVarString","parameters":["totally","@85"],"spec":"set %m.varStr to %s","subStack1":-1,"subStack2":-1,"type":" ","typeName":""}
+{"color":-3123898,"id":"85","nextBlock":-1,"opCode":"getAtListMap","parameters":["@86","total_verses","surah"],"spec":"get value at %d key %s of %m.listMap","subStack1":-1,"subStack2":-1,"type":"s","typeName":""}
+{"color":-16729254,"id":"86","nextBlock":-1,"opCode":"toNumber","parameters":["@148"],"spec":"toNumber %s","subStack1":-1,"subStack2":-1,"type":"d","typeName":""}
+{"color":-559806,"id":"148","nextBlock":-1,"opCode":"getVar","parameters":[],"spec":"sorahIndex","subStack1":-1,"subStack2":-1,"type":"s","typeName":""}
+{"color":-559806,"id":"152","nextBlock":158,"opCode":"setVarString","parameters":["id","@153"],"spec":"set %m.varStr to %s","subStack1":-1,"subStack2":-1,"type":" ","typeName":""}
+{"color":-3123898,"id":"153","nextBlock":-1,"opCode":"getAtListMap","parameters":["@154","id","surah"],"spec":"get value at %d key %s of %m.listMap","subStack1":-1,"subStack2":-1,"type":"s","typeName":""}
+{"color":-16729254,"id":"154","nextBlock":-1,"opCode":"toNumber","parameters":["@155"],"spec":"toNumber %s","subStack1":-1,"subStack2":-1,"type":"d","typeName":""}
+{"color":-559806,"id":"155","nextBlock":-1,"opCode":"getVar","parameters":[],"spec":"sorahIndex","subStack1":-1,"subStack2":-1,"type":"s","typeName":""}
+{"color":-559806,"id":"158","nextBlock":162,"opCode":"setVarString","parameters":["idSurah","@159"],"spec":"set %m.varStr to %s","subStack1":-1,"subStack2":-1,"type":" ","typeName":""}
+{"color":-16729254,"id":"159","nextBlock":-1,"opCode":"toString","parameters":["@160"],"spec":"toString %d without decimal","subStack1":-1,"subStack2":-1,"type":"s","typeName":""}
+{"color":-16729254,"id":"160","nextBlock":-1,"opCode":"toNumber","parameters":["@161"],"spec":"toNumber %s","subStack1":-1,"subStack2":-1,"type":"d","typeName":""}
+{"color":-559806,"id":"161","nextBlock":-1,"opCode":"getVar","parameters":[],"spec":"id","subStack1":-1,"subStack2":-1,"type":"s","typeName":""}
+{"color":-16729254,"id":"162","nextBlock":157,"opCode":"addSourceDirectly","parameters":["idSurahInt \u003d Integer.parseInt(idSurah);"],"spec":"add source directly %s.inputOnly","subStack1":-1,"subStack2":-1,"type":" ","typeName":""}
+{"color":-16729254,"id":"157","nextBlock":18,"opCode":"addSourceDirectly","parameters":["} catch(Exception e) {\n}"],"spec":"add source directly %s.inputOnly","subStack1":-1,"subStack2":-1,"type":" ","typeName":""}
+{"color":-876233,"id":"18","nextBlock":156,"opCode":"ifElse","parameters":["@19"],"spec":"if %b then","subStack1":38,"subStack2":149,"type":"e","typeName":""}
+{"color":-559806,"id":"19","nextBlock":-1,"opCode":"getVar","parameters":[],"spec":"withTranslate","subStack1":-1,"subStack2":-1,"type":"b","typeName":""}
+{"color":-10589996,"id":"38","nextBlock":140,"opCode":"setVisible","parameters":["vscroll1","GONE"],"spec":"%m.view setVisible %m.visible","subStack1":-1,"subStack2":-1,"type":" ","typeName":""}
+{"color":-10589996,"id":"140","nextBlock":141,"opCode":"setText","parameters":["toolBarText","@51"],"spec":"%m.textview setText %s","subStack1":-1,"subStack2":-1,"type":" ","typeName":""}
+{"color":-16729254,"id":"51","nextBlock":-1,"opCode":"stringJoin","parameters":["@27","@53"],"spec":"join %s and %s","subStack1":-1,"subStack2":-1,"type":"s","typeName":""}
+{"color":-16729254,"id":"27","nextBlock":-1,"opCode":"stringJoin","parameters":["سورة ","@28"],"spec":"join %s and %s","subStack1":-1,"subStack2":-1,"type":"s","typeName":""}
+{"color":-16729254,"id":"28","nextBlock":-1,"opCode":"asdString","parameters":["names"],"spec":"string %s.inputOnly","subStack1":-1,"subStack2":-1,"type":"s","typeName":""}
+{"color":-16729254,"id":"53","nextBlock":-1,"opCode":"stringJoin","parameters":["/","@60"],"spec":"join %s and %s","subStack1":-1,"subStack2":-1,"type":"s","typeName":""}
+{"color":-16729254,"id":"60","nextBlock":-1,"opCode":"asdString","parameters":["translations"],"spec":"string %s.inputOnly","subStack1":-1,"subStack2":-1,"type":"s","typeName":""}
+{"color":-10589996,"id":"141","nextBlock":29,"opCode":"setText","parameters":["toolBarSubText","@56"],"spec":"%m.textview setText %s","subStack1":-1,"subStack2":-1,"type":" ","typeName":""}
+{"color":-16729254,"id":"56","nextBlock":-1,"opCode":"stringJoin","parameters":["verses  ","@57"],"spec":"join %s and %s","subStack1":-1,"subStack2":-1,"type":"s","typeName":""}
+{"color":-16729254,"id":"57","nextBlock":-1,"opCode":"stringJoin","parameters":["@88","  الآيات"],"spec":"join %s and %s","subStack1":-1,"subStack2":-1,"type":"s","typeName":""}
+{"color":-16729254,"id":"88","nextBlock":-1,"opCode":"toString","parameters":["@89"],"spec":"toString %d without decimal","subStack1":-1,"subStack2":-1,"type":"s","typeName":""}
+{"color":-16729254,"id":"89","nextBlock":-1,"opCode":"toNumber","parameters":["@59"],"spec":"toNumber %s","subStack1":-1,"subStack2":-1,"type":"d","typeName":""}
+{"color":-16729254,"id":"59","nextBlock":-1,"opCode":"asdString","parameters":["totally"],"spec":"string %s.inputOnly","subStack1":-1,"subStack2":-1,"type":"s","typeName":""}
+{"color":-7711273,"id":"29","nextBlock":30,"opCode":"definedFunc","parameters":["verses"],"spec":"setUp main key %s.key","subStack1":-1,"subStack2":-1,"type":" ","typeName":""}
+{"color":-16729254,"id":"30","nextBlock":32,"opCode":"strToListMap","parameters":["@31","quranListMap"],"spec":"JSON %s to %m.listMap","subStack1":-1,"subStack2":-1,"type":" ","typeName":""}
+{"color":-16729254,"id":"31","nextBlock":-1,"opCode":"asdString","parameters":["jsonarray.toString()"],"spec":"string %s.inputOnly","subStack1":-1,"subStack2":-1,"type":"s","typeName":""}
+{"color":-10589996,"id":"32","nextBlock":33,"opCode":"listSetCustomViewData","parameters":["listview1","quranListMap"],"spec":"%m.listview setListCustomViewData %m.listMap","subStack1":-1,"subStack2":-1,"type":" ","typeName":""}
+{"color":-10589996,"id":"33","nextBlock":-1,"opCode":"listRefresh","parameters":["listview1"],"spec":"%m.listview refreshData","subStack1":-1,"subStack2":-1,"type":" ","typeName":""}
+{"color":-16729254,"id":"149","nextBlock":142,"opCode":"addSourceDirectly","parameters":["// --- NON-TRANSLATION MODE ---"],"spec":"add source directly %s.inputOnly","subStack1":-1,"subStack2":-1,"type":" ","typeName":""}
+{"color":-10589996,"id":"142","nextBlock":143,"opCode":"setText","parameters":["toolBarText","@64"],"spec":"%m.textview setText %s","subStack1":-1,"subStack2":-1,"type":" ","typeName":""}
+{"color":-16729254,"id":"64","nextBlock":-1,"opCode":"stringJoin","parameters":["@65","@67"],"spec":"join %s and %s","subStack1":-1,"subStack2":-1,"type":"s","typeName":""}
+{"color":-16729254,"id":"65","nextBlock":-1,"opCode":"stringJoin","parameters":["سورة ","@66"],"spec":"join %s and %s","subStack1":-1,"subStack2":-1,"type":"s","typeName":""}
+{"color":-16729254,"id":"66","nextBlock":-1,"opCode":"asdString","parameters":["names"],"spec":"string %s.inputOnly","subStack1":-1,"subStack2":-1,"type":"s","typeName":""}
+{"color":-16729254,"id":"67","nextBlock":-1,"opCode":"stringJoin","parameters":["/","@68"],"spec":"join %s and %s","subStack1":-1,"subStack2":-1,"type":"s","typeName":""}
+{"color":-16729254,"id":"68","nextBlock":-1,"opCode":"asdString","parameters":["translations"],"spec":"string %s.inputOnly","subStack1":-1,"subStack2":-1,"type":"s","typeName":""}
+{"color":-10589996,"id":"143","nextBlock":131,"opCode":"setText","parameters":["toolBarSubText","@90"],"spec":"%m.textview setText %s","subStack1":-1,"subStack2":-1,"type":" ","typeName":""}
+{"color":-16729254,"id":"90","nextBlock":-1,"opCode":"stringJoin","parameters":["verses ","@91"],"spec":"join %s and %s","subStack1":-1,"subStack2":-1,"type":"s","typeName":""}
+{"color":-16729254,"id":"91","nextBlock":-1,"opCode":"stringJoin","parameters":["@92","  الآيات"],"spec":"join %s and %s","subStack1":-1,"subStack2":-1,"type":"s","typeName":""}
+{"color":-16729254,"id":"92","nextBlock":-1,"opCode":"toString","parameters":["@93"],"spec":"toString %d without decimal","subStack1":-1,"subStack2":-1,"type":"s","typeName":""}
+{"color":-16729254,"id":"93","nextBlock":-1,"opCode":"toNumber","parameters":["@94"],"spec":"toNumber %s","subStack1":-1,"subStack2":-1,"type":"d","typeName":""}
+{"color":-16729254,"id":"94","nextBlock":-1,"opCode":"asdString","parameters":["totally"],"spec":"string %s.inputOnly","subStack1":-1,"subStack2":-1,"type":"s","typeName":""}
+{"color":-16729254,"id":"131","nextBlock":13,"opCode":"addSourceDirectly","parameters":["try {\nint fileNumber \u003d Integer.parseInt(sorahIndex) + 1;\nString fileName \u003d \"quran/surah\"+fileNumber+\".txt\";\n\nInputStream is \u003d this.getAssets().open(fileName);\n           int size \u003d is.available();\n           byte[] buffer \u003d new byte[size];\n           is.read(buffer);\n           is.close();\n           quran \u003d new String(buffer, \"UTF-8\");\n \n} catch(Exception e) {\n}"],"spec":"add source directly %s.inputOnly","subStack1":-1,"subStack2":-1,"type":" ","typeName":""}
+{"color":-10589996,"id":"13","nextBlock":10,"opCode":"setText","parameters":["textView","@139"],"spec":"%m.textview setText %s","subStack1":-1,"subStack2":-1,"type":" ","typeName":""}
+{"color":-559806,"id":"139","nextBlock":-1,"opCode":"getVar","parameters":[],"spec":"quran","subStack1":-1,"subStack2":-1,"type":"s","typeName":""}
+{"color":-16729254,"id":"10","nextBlock":14,"opCode":"addSourceDirectly","parameters":["applyVerseImages(textView);"],"spec":"add source directly %s.inputOnly","subStack1":-1,"subStack2":-1,"type":" ","typeName":""}
+{"color":-10589996,"id":"14","nextBlock":-1,"opCode":"setTypeface","parameters":["textView","isep_misbah","normal"],"spec":"%m.textview setTypeface %m.font with style %m.typeface","subStack1":-1,"subStack2":-1,"type":" ","typeName":""}
+{"color":-3793069,"id":"156","nextBlock":-1,"opCode":"Hide Scroll","parameters":["listview1"],"spec":"%m.listview hide scroll bar","subStack1":-1,"subStack2":-1,"type":" ","typeName":""}
+
+@QuranActivity.java_createJSONArray_moreBlock
+{"color":-16729254,"id":"10","nextBlock":-1,"opCode":"addSourceDirectly","parameters":["try{\n\tjsonarray \u003d new org.json.JSONArray(_string);\r\n}catch(Exception e){\n\t \n}"],"spec":"add source directly %s.inputOnly","subStack1":-1,"subStack2":-1,"type":" ","typeName":""}
+
+@QuranActivity.java_onStop_onStop
+{"color":-3123898,"id":"10","nextBlock":11,"opCode":"clearList","parameters":["listState"],"spec":"clear %m.list","subStack1":-1,"subStack2":-1,"type":" ","typeName":""}
+{"color":-559806,"id":"11","nextBlock":12,"opCode":"mapCreateNew","parameters":["hashMap"],"spec":"%m.varMap create new map","subStack1":-1,"subStack2":-1,"type":" ","typeName":""}
+{"color":-559806,"id":"12","nextBlock":15,"opCode":"mapPut","parameters":["hashMap","index","@13"],"spec":"%m.varMap put key %s value %s","subStack1":-1,"subStack2":-1,"type":" ","typeName":""}
+{"color":-16729254,"id":"13","nextBlock":-1,"opCode":"toString","parameters":["@14"],"spec":"toString %d without decimal","subStack1":-1,"subStack2":-1,"type":"s","typeName":""}
+{"color":-1357758,"id":"14","nextBlock":-1,"opCode":"save restore listview state","parameters":["listview1"],"spec":"list %m.listview index","subStack1":-1,"subStack2":-1,"type":"d","typeName":""}
+{"color":-559806,"id":"15","nextBlock":18,"opCode":"mapPut","parameters":["hashMap","top","@16"],"spec":"%m.varMap put key %s value %s","subStack1":-1,"subStack2":-1,"type":" ","typeName":""}
+{"color":-16729254,"id":"16","nextBlock":-1,"opCode":"toString","parameters":["@17"],"spec":"toString %d without decimal","subStack1":-1,"subStack2":-1,"type":"s","typeName":""}
+{"color":-1357758,"id":"17","nextBlock":-1,"opCode":"listview get top, and padding top","parameters":["listview1"],"spec":"list %m.listview get Top ..ect","subStack1":-1,"subStack2":-1,"type":"d","typeName":""}
+{"color":-559806,"id":"18","nextBlock":20,"opCode":"mapPut","parameters":["hashMap","chapter","@19"],"spec":"%m.varMap put key %s value %s","subStack1":-1,"subStack2":-1,"type":" ","typeName":""}
+{"color":-13458204,"id":"19","nextBlock":-1,"opCode":"intentGetString","parameters":["sorah"],"spec":"Activity getExtra key %s","subStack1":-1,"subStack2":-1,"type":"s","typeName":""}
+{"color":-3123898,"id":"20","nextBlock":21,"opCode":"addMapToList","parameters":["hashMap","listState"],"spec":"add %m.varMap to %m.listMap","subStack1":-1,"subStack2":-1,"type":" ","typeName":""}
+{"color":-13458204,"id":"21","nextBlock":-1,"opCode":"fileSetData","parameters":["sh","@22","@23"],"spec":"%m.file setData key %s value %s","subStack1":-1,"subStack2":-1,"type":" ","typeName":""}
+{"color":-13458204,"id":"22","nextBlock":-1,"opCode":"intentGetString","parameters":["sorah"],"spec":"Activity getExtra key %s","subStack1":-1,"subStack2":-1,"type":"s","typeName":""}
+{"color":-16729254,"id":"23","nextBlock":-1,"opCode":"listMapToStr","parameters":["listState"],"spec":"%m.listMap to JSON String","subStack1":-1,"subStack2":-1,"type":"s","typeName":""}
+
+@QuranActivity.java_imageview3_onClick
+{"color":-876233,"id":"10","nextBlock":-1,"opCode":"ifElse","parameters":["@11"],"spec":"if %b then","subStack1":-1,"subStack2":12,"type":"e","typeName":""}
+{"color":-559806,"id":"11","nextBlock":-1,"opCode":"getVar","parameters":[],"spec":"withTranslate","subStack1":-1,"subStack2":-1,"type":"b","typeName":""}
+{"color":-16729254,"id":"12","nextBlock":13,"opCode":"addSourceDirectly","parameters":["// --- NON-TRANSLATION MODE ---"],"spec":"add source directly %s.inputOnly","subStack1":-1,"subStack2":-1,"type":" ","typeName":""}
+{"color":-16729254,"id":"13","nextBlock":-1,"opCode":"addSourceDirectly","parameters":["showJumpDialog();"],"spec":"add source directly %s.inputOnly","subStack1":-1,"subStack2":-1,"type":" ","typeName":""}
+
+@QuranActivity.java_onCreate_initializeLogic
+{"color":-559806,"id":"31","nextBlock":10,"opCode":"setVarBoolean","parameters":["withTranslate",""],"spec":"set %m.varBool to %b","subStack1":-1,"subStack2":-1,"type":" ","typeName":""}
+{"color":-7711273,"id":"10","nextBlock":35,"opCode":"definedFunc","parameters":[],"spec":"Ui","subStack1":-1,"subStack2":-1,"type":" ","typeName":""}
+{"color":-876233,"id":"35","nextBlock":-1,"opCode":"ifElse","parameters":["@36"],"spec":"if %b then","subStack1":40,"subStack2":-1,"type":"e","typeName":""}
+{"color":-16729254,"id":"36","nextBlock":-1,"opCode":"not","parameters":["@37"],"spec":"not %b","subStack1":-1,"subStack2":-1,"type":"b","typeName":""}
+{"color":-16729254,"id":"37","nextBlock":-1,"opCode":"stringEquals","parameters":["@38",""],"spec":"%s equals %s","subStack1":-1,"subStack2":-1,"type":"b","typeName":""}
+{"color":-11165715,"id":"38","nextBlock":-1,"opCode":"fileGetData","parameters":["sh","@39"],"spec":"%m.file getData key %s","subStack1":-1,"subStack2":-1,"type":"s","typeName":""}
+{"color":-11165715,"id":"39","nextBlock":-1,"opCode":"intentGetString","parameters":["sorah"],"spec":"Activity getExtra key %s","subStack1":-1,"subStack2":-1,"type":"s","typeName":""}
+{"color":-3123898,"id":"40","nextBlock":41,"opCode":"clearList","parameters":["listState"],"spec":"clear %m.list","subStack1":-1,"subStack2":-1,"type":" ","typeName":""}
+{"color":-16729254,"id":"41","nextBlock":44,"opCode":"strToListMap","parameters":["@42","listState"],"spec":"JSON %s to %m.listMap","subStack1":-1,"subStack2":-1,"type":" ","typeName":""}
+{"color":-11165715,"id":"42","nextBlock":-1,"opCode":"fileGetData","parameters":["sh","@43"],"spec":"%m.file getData key %s","subStack1":-1,"subStack2":-1,"type":"s","typeName":""}
+{"color":-11165715,"id":"43","nextBlock":-1,"opCode":"intentGetString","parameters":["sorah"],"spec":"Activity getExtra key %s","subStack1":-1,"subStack2":-1,"type":"s","typeName":""}
+{"color":-11841868,"id":"44","nextBlock":-1,"opCode":"try to do ","parameters":[],"spec":"try {   to Do ","subStack1":45,"subStack2":50,"type":"e","typeName":""}
+{"color":-1357758,"id":"45","nextBlock":-1,"opCode":"set selection to saved values listview","parameters":["listview1","@46","@48"],"spec":"(onCreate) list %m.listview Index value %d Top value %d ","subStack1":-1,"subStack2":-1,"type":" ","typeName":""}
+{"color":-16729254,"id":"46","nextBlock":-1,"opCode":"toNumber","parameters":["@47"],"spec":"toNumber %s","subStack1":-1,"subStack2":-1,"type":"d","typeName":""}
+{"color":-3123898,"id":"47","nextBlock":-1,"opCode":"getAtListMap","parameters":["0","index","listState"],"spec":"get value at %d key %s of %m.listMap","subStack1":-1,"subStack2":-1,"type":"s","typeName":""}
+{"color":-16729254,"id":"48","nextBlock":-1,"opCode":"toNumber","parameters":["@49"],"spec":"toNumber %s","subStack1":-1,"subStack2":-1,"type":"d","typeName":""}
+{"color":-3123898,"id":"49","nextBlock":-1,"opCode":"getAtListMap","parameters":["0","top","listState"],"spec":"get value at %d key %s of %m.listMap","subStack1":-1,"subStack2":-1,"type":"s","typeName":""}
+{"color":-11841868,"id":"50","nextBlock":-1,"opCode":"print stack trace","parameters":[],"spec":"e Print Stack Trace","subStack1":-1,"subStack2":-1,"type":" ","typeName":""}
+
+@QuranActivity.java_options_onClick
+{"color":-876233,"id":"11","nextBlock":-1,"opCode":"ifElse","parameters":["@12"],"spec":"if %b then","subStack1":10,"subStack2":13,"type":"e","typeName":""}
+{"color":-559806,"id":"12","nextBlock":-1,"opCode":"getVar","parameters":[],"spec":"withTranslate","subStack1":-1,"subStack2":-1,"type":"b","typeName":""}
+{"color":-16731791,"id":"10","nextBlock":-1,"opCode":"Open fragment no bundle","parameters":["SettingsBottomdialogFragmentActivity"],"spec":"launch %m.activity","subStack1":-1,"subStack2":-1,"type":" ","typeName":""}
+{"color":-16729254,"id":"13","nextBlock":14,"opCode":"addSourceDirectly","parameters":["// --- NON-TRANSLATION MODE ---"],"spec":"add source directly %s.inputOnly","subStack1":-1,"subStack2":-1,"type":" ","typeName":""}
+{"color":-16731791,"id":"14","nextBlock":-1,"opCode":"Open fragment no bundle","parameters":["SettingsBottomdialogFragmentActivity"],"spec":"launch %m.activity","subStack1":-1,"subStack2":-1,"type":" ","typeName":""}
+
+@QuranActivity.java_listview1_onItemClicked
+{"color":-16731791,"id":"11","nextBlock":12,"opCode":"Create bundle","parameters":["zabi"],"spec":"Create bundle %s.inputOnly to pass data","subStack1":-1,"subStack2":-1,"type":" ","typeName":""}
+{"color":-16731791,"id":"12","nextBlock":24,"opCode":"Put data","parameters":["zabi","Aya","@13"],"spec":"bundle name %s.inputOnly key %s value %s","subStack1":-1,"subStack2":-1,"type":" ","typeName":""}
+{"color":-16729254,"id":"13","nextBlock":-1,"opCode":"stringJoin","parameters":["@14","@17"],"spec":"join %s and %s","subStack1":-1,"subStack2":-1,"type":"s","typeName":""}
+{"color":-3123898,"id":"14","nextBlock":-1,"opCode":"getAtListMap","parameters":["@15","text","quranListMap"],"spec":"get value at %d key %s of %m.listMap","subStack1":-1,"subStack2":-1,"type":"s","typeName":""}
+{"color":-7711273,"id":"15","nextBlock":-1,"opCode":"getArg","parameters":[],"spec":"position","subStack1":-1,"subStack2":-1,"type":"d","typeName":""}
+{"color":-16729254,"id":"17","nextBlock":-1,"opCode":"stringJoin","parameters":["﴿","@18"],"spec":"join %s and %s","subStack1":-1,"subStack2":-1,"type":"s","typeName":""}
+{"color":-16729254,"id":"18","nextBlock":-1,"opCode":"stringJoin","parameters":["@19","﴾"],"spec":"join %s and %s","subStack1":-1,"subStack2":-1,"type":"s","typeName":""}
+{"color":-16729254,"id":"19","nextBlock":-1,"opCode":"toString","parameters":["@20"],"spec":"toString %d without decimal","subStack1":-1,"subStack2":-1,"type":"s","typeName":""}
+{"color":-16729254,"id":"20","nextBlock":-1,"opCode":"toNumber","parameters":["@21"],"spec":"toNumber %s","subStack1":-1,"subStack2":-1,"type":"d","typeName":""}
+{"color":-3123898,"id":"21","nextBlock":-1,"opCode":"getAtListMap","parameters":["@22","id","quranListMap"],"spec":"get value at %d key %s of %m.listMap","subStack1":-1,"subStack2":-1,"type":"s","typeName":""}
+{"color":-7711273,"id":"22","nextBlock":-1,"opCode":"getArg","parameters":[],"spec":"position","subStack1":-1,"subStack2":-1,"type":"d","typeName":""}
+{"color":-16731791,"id":"24","nextBlock":28,"opCode":"Put data","parameters":["zabi","Translation","@26"],"spec":"bundle name %s.inputOnly key %s value %s","subStack1":-1,"subStack2":-1,"type":" ","typeName":""}
+{"color":-3123898,"id":"26","nextBlock":-1,"opCode":"getAtListMap","parameters":["@27","translation","quranListMap"],"spec":"get value at %d key %s of %m.listMap","subStack1":-1,"subStack2":-1,"type":"s","typeName":""}
+{"color":-7711273,"id":"27","nextBlock":-1,"opCode":"getArg","parameters":[],"spec":"position","subStack1":-1,"subStack2":-1,"type":"d","typeName":""}
+{"color":-16731791,"id":"28","nextBlock":33,"opCode":"Put data","parameters":["zabi","Transliterate","@32"],"spec":"bundle name %s.inputOnly key %s value %s","subStack1":-1,"subStack2":-1,"type":" ","typeName":""}
+{"color":-559806,"id":"32","nextBlock":-1,"opCode":"getVar","parameters":[],"spec":"translations","subStack1":-1,"subStack2":-1,"type":"s","typeName":""}
+{"color":-16731791,"id":"33","nextBlock":39,"opCode":"Put data","parameters":["zabi","surah","@38"],"spec":"bundle name %s.inputOnly key %s value %s","subStack1":-1,"subStack2":-1,"type":" ","typeName":""}
+{"color":-559806,"id":"38","nextBlock":-1,"opCode":"getVar","parameters":[],"spec":"idSurah","subStack1":-1,"subStack2":-1,"type":"s","typeName":""}
+{"color":-16731791,"id":"39","nextBlock":23,"opCode":"Put data","parameters":["zabi","AyaId","@42"],"spec":"bundle name %s.inputOnly key %s value %s","subStack1":-1,"subStack2":-1,"type":" ","typeName":""}
+{"color":-3123898,"id":"42","nextBlock":-1,"opCode":"getAtListMap","parameters":["@43","id","quranListMap"],"spec":"get value at %d key %s of %m.listMap","subStack1":-1,"subStack2":-1,"type":"s","typeName":""}
+{"color":-7711273,"id":"43","nextBlock":-1,"opCode":"getArg","parameters":[],"spec":"position","subStack1":-1,"subStack2":-1,"type":"d","typeName":""}
+{"color":-16731791,"id":"23","nextBlock":-1,"opCode":"Launch fragment_copy84","parameters":["InfoBottomdialogFragmentActivity","zabi"],"spec":"%m.activity launch with bundle name %s.inputOnly","subStack1":-1,"subStack2":-1,"type":" ","typeName":""}
+
+@QuranActivity.java_set_moreBlock
+{"color":-16729254,"id":"17","nextBlock":-1,"opCode":"addSourceDirectly","parameters":["try{\n\t_textview.setText(json2.getString(_key));\n}catch(Exception e){\n\t \n}"],"spec":"add source directly %s.inputOnly","subStack1":-1,"subStack2":-1,"type":" ","typeName":""}
+
+@QuranActivity.java_createJSONObject_moreBlock
+{"color":-16729254,"id":"10","nextBlock":-1,"opCode":"addSourceDirectly","parameters":["try{\n\tjson \u003d new org.json.JSONObject(_string);\r\n}catch(Exception e){\n\t \n}"],"spec":"add source directly %s.inputOnly","subStack1":-1,"subStack2":-1,"type":" ","typeName":""}
+
+@QuranActivity.java_textView_OnTouched
+{"color":-16729254,"id":"10","nextBlock":13,"opCode":"addSourceDirectly","parameters":["TextView tv \u003d (TextView) v;\n            int offset \u003d getPreciseOffset(tv, event);\n            if (offset !\u003d -1) {\n            selectVerse(tv, offset);\n}"],"spec":"add source directly %s.inputOnly","subStack1":-1,"subStack2":-1,"type":" ","typeName":""}
+{"color":-16731791,"id":"13","nextBlock":14,"opCode":"Create bundle","parameters":["zabi"],"spec":"Create bundle %s.inputOnly to pass data","subStack1":-1,"subStack2":-1,"type":" ","typeName":""}
+{"color":-16731791,"id":"14","nextBlock":16,"opCode":"Put data","parameters":["zabi","Aya","@15"],"spec":"bundle name %s.inputOnly key %s value %s","subStack1":-1,"subStack2":-1,"type":" ","typeName":""}
+{"color":-559806,"id":"15","nextBlock":-1,"opCode":"getVar","parameters":[],"spec":"currentTap","subStack1":-1,"subStack2":-1,"type":"s","typeName":""}
+{"color":-16731791,"id":"16","nextBlock":-1,"opCode":"Launch fragment_copy84","parameters":["InfoBottomdialogFragmentActivity","zabi"],"spec":"%m.activity launch with bundle name %s.inputOnly","subStack1":-1,"subStack2":-1,"type":" ","typeName":""}
+
+@QuranActivity.java_mm_MoreBlockMaker
+{"color":-16729254,"id":"10","nextBlock":11,"opCode":"addSourceDirectly","parameters":["private void applyVerseImages(TextView tv) {\n    String text \u003d tv.getText().toString();\n    if (TextUtils.isEmpty(text)) return;\n    \n    SpannableStringBuilder ssb \u003d new SpannableStringBuilder(text);\n    // Added parentheses () to capture the number and \\\\s* to handle potential spaces\n    Pattern pattern \u003d Pattern.compile(\"﴿\\\\s*(\\\\d+)\\\\s*﴾\");\n    Matcher matcher \u003d pattern.matcher(text);\n    \n    int size \u003d (int) (tv.getTextSize() * 1.3);\n    \n    while (matcher.find()) {\n        try {\n            // Now group(1) will correctly pull only the digits\n            String verseNumber \u003d matcher.group(1); \n            \n            Drawable combinedDrawable \u003d drawableCache.get(verseNumber);\n            \n            if (combinedDrawable \u003d\u003d null) {\n                combinedDrawable \u003d getVerseDrawable(verseNumber, size);\n                drawableCache.put(verseNumber, combinedDrawable);\n            }\n            \n            if (combinedDrawable !\u003d null) {\n                combinedDrawable.setBounds(0, 0, size, size);\n                ImageSpan imageSpan \u003d new ImageSpan(combinedDrawable, ImageSpan.ALIGN_BASELINE);\n                ssb.setSpan(imageSpan, matcher.start(), matcher.end(), Spannable.SPAN_EXCLUSIVE_EXCLUSIVE);\n            }\n        } catch (Exception e) {\n            // This prevents a single bad marker from crashing the whole app\n            Log.e(\"VerseError\", \"Error processing marker at \" + matcher.start());\n        }\n    }\n    tv.setText(ssb);\n}"],"spec":"add source directly %s.inputOnly","subStack1":-1,"subStack2":-1,"type":" ","typeName":""}
+{"color":-16729254,"id":"11","nextBlock":12,"opCode":"addSourceDirectly","parameters":["private Drawable getVerseDrawable(String number, int size) {\n    // 1. Load the frame image\n    Bitmap frame \u003d BitmapFactory.decodeResource(getResources(), R.drawable.ayat);\n    Bitmap scaledFrame \u003d Bitmap.createScaledBitmap(frame, size, size, true);\n    \n    // 2. Create a blank canvas to draw on\n    Bitmap canvasBitmap \u003d Bitmap.createBitmap(size, size, Bitmap.Config.ARGB_8888);\n    Canvas canvas \u003d new Canvas(canvasBitmap);\n    \n    // 3. Draw the frame\n    canvas.drawBitmap(scaledFrame, 0, 0, null);\n    \n    // 4. Draw the number in the center\n    Paint paint \u003d new Paint(Paint.ANTI_ALIAS_FLAG);\n    paint.setColor(getResources().getColor(R.color.text_primary)); // Set number color\n    paint.setTextSize(size * 0.4f); // Adjust size to fit inside frame\n    paint.setTextAlign(Paint.Align.CENTER);\n    \n    // Calculate center position\n    float xPos \u003d canvas.getWidth() / 2;\n    float yPos \u003d (canvas.getHeight() / 2) - ((paint.descent() + paint.ascent()) / 2);\n    \n    canvas.drawText(number, xPos, yPos, paint);\n    \n    return new BitmapDrawable(getResources(), canvasBitmap);\n}\n\n"],"spec":"add source directly %s.inputOnly","subStack1":-1,"subStack2":-1,"type":" ","typeName":""}
+{"color":-16729254,"id":"12","nextBlock":-1,"opCode":"addSourceDirectly","parameters":["private void selectVerse(TextView tv, int offset) {\n    CharSequence text \u003d tv.getText();\n    if (!(text instanceof Spannable)) return;\n    \n    Spannable spannable \u003d (Spannable) text;\n    int length \u003d spannable.length();\n    if (offset \u003c 0 || offset \u003e\u003d length) return;\n    \n    // We use the same pattern as applyVerseImages\n    Pattern pattern \u003d Pattern.compile(\"﴿\\\\s*(\\\\d+)\\\\s*﴾\");\n    Matcher matcher \u003d pattern.matcher(text.toString());\n    \n    int verseStart \u003d 0;\n    int verseEnd \u003d length;\n    int lastMarkerEnd \u003d 0;\n    boolean found \u003d false;\n    \n    while (matcher.find()) {\n        int markerEnd \u003d matcher.end();\n        // If the tap is before the end of this marker, this is our verse!\n        if (offset \u003c markerEnd) {\n            verseStart \u003d lastMarkerEnd;\n            verseEnd \u003d markerEnd;\n            found \u003d true;\n            break;\n        }\n        lastMarkerEnd \u003d markerEnd;\n    }\n    \n    // If tap was after the last marker\n    if (!found) {\n        verseStart \u003d lastMarkerEnd;\n        verseEnd \u003d length;\n    }\n    \n    // Safety check for empty ranges\n    if (verseStart \u003e\u003d verseEnd) return;\n\n    // Remove old highlights\n    BackgroundColorSpan[] spans \u003d spannable.getSpans(0, length, BackgroundColorSpan.class);\n    for (BackgroundColorSpan span : spans) {\n        spannable.removeSpan(span);\n    }\n    \n    // Update the global selectedVerse variable for the copy function\n    selectedVerse \u003d text.toString().substring(verseStart, verseEnd).trim();\n    currentTap \u003d selectedVerse;\n\n    // Apply the highlight (0x5590EE90 is semi-transparent light green)\n    spannable.setSpan(\n        new BackgroundColorSpan(0x5590EE90),\n        verseStart,\n        verseEnd,\n        Spannable.SPAN_EXCLUSIVE_EXCLUSIVE\n    );\n    \n    // IMPORTANT: DO NOT call tv.setText(spannable) here.\n    // The view will update automatically because we modified the existing spannable object.\n}"],"spec":"add source directly %s.inputOnly","subStack1":-1,"subStack2":-1,"type":" ","typeName":""}
+
+@QuranActivity.java_mm3_MoreBlockMaker
+{"color":-16729254,"id":"10","nextBlock":11,"opCode":"addSourceDirectly","parameters":["private int getPreciseOffset(TextView tv, MotionEvent event) {\n    Layout layout \u003d tv.getLayout();\n    if (layout \u003d\u003d null) return -1;\n\n    int x \u003d (int) event.getX() - tv.getTotalPaddingLeft() + tv.getScrollX();\n    int y \u003d (int) event.getY() - tv.getTotalPaddingTop() + tv.getScrollY();\n\n    int line \u003d layout.getLineForVertical(y);\n    int start \u003d layout.getLineStart(line);\n    int end \u003d layout.getLineEnd(line);\n\n    float touchX \u003d x;\n    int bestOffset \u003d start;\n    float minDist \u003d Float.MAX_VALUE;\n\n    for (int i \u003d start; i \u003c end; i++) {\n        float glyphX \u003d layout.getPrimaryHorizontal(i);\n        float dist \u003d Math.abs(glyphX - touchX);\n        if (dist \u003c minDist) {\n            minDist \u003d dist;\n            bestOffset \u003d i;\n        }\n    }\n    return bestOffset;\n}\n"],"spec":"add source directly %s.inputOnly","subStack1":-1,"subStack2":-1,"type":" ","typeName":""}
+{"color":-16729254,"id":"11","nextBlock":12,"opCode":"addSourceDirectly","parameters":["private void clearSelection() {\n    CharSequence text \u003d textView.getText();\n    if (text instanceof Spannable) {\n        Spannable spannable \u003d (Spannable) text;\n        \n        // 1. Find all background color spans (the green highlights)\n        BackgroundColorSpan[] spans \u003d spannable.getSpans(0, spannable.length(), BackgroundColorSpan.class);\n        \n        // 2. Remove them\n        for (BackgroundColorSpan span : spans) {\n            spannable.removeSpan(span);\n        }\n        \n        // 3. Reset the UI elements\n        selectedVerse \u003d \"\";\n        \n    }\n}"],"spec":"add source directly %s.inputOnly","subStack1":-1,"subStack2":-1,"type":" ","typeName":""}
+{"color":-16729254,"id":"12","nextBlock":-1,"opCode":"addSourceDirectly","parameters":["// Helper to remove Arabic diacritics for easier searching\nprivate String normalizeArabic(String text) {\n    return text.replaceAll(\"[\\\\u064B-\\\\u0652\\\\u0670]\", \"\");\n}\n\nprivate void searchInText(String query) {\n    if (query.isEmpty()) return;\n\n    Spannable spannable \u003d (Spannable) textView.getText();\n    String fullText \u003d spannable.toString();\n    \n    // Normalize both for a \"fuzzy\" match\n    String normalizedFull \u003d normalizeArabic(fullText);\n    String normalizedQuery \u003d normalizeArabic(query);\n\n    // Clear previous search highlights (using a different color, like Cyan)\n    BackgroundColorSpan[] oldSpans \u003d spannable.getSpans(0, spannable.length(), BackgroundColorSpan.class);\n    for (BackgroundColorSpan span : oldSpans) {\n        spannable.removeSpan(span);\n    }\n\n    int index \u003d normalizedFull.indexOf(normalizedQuery);\n    if (index \u003d\u003d -1) {\n        Toast.makeText(this, \"Word not found\", Toast.LENGTH_SHORT).show();\n        return;\n    }\n\n    // Loop to find all occurrences\n    while (index \u003e\u003d 0) {\n        // We map the normalized index back to the original text length\n        // (Note: In simple apps, usually the index is very close)\n        spannable.setSpan(\n            new BackgroundColorSpan(Color.CYAN),\n            index,\n            index + query.length(), // This is an approximation if diacritics exist\n            Spannable.SPAN_EXCLUSIVE_EXCLUSIVE\n        );\n        \n        // Scroll to the first match found\n        if (index \u003d\u003d normalizedFull.indexOf(normalizedQuery)) {\n            int line \u003d textView.getLayout().getLineForOffset(index);\n            vscroll1.smoothScrollTo(0, textView.getLayout().getLineTop(line) - 100);\n        }\n        \n        index \u003d normalizedFull.indexOf(normalizedQuery, index + 1);\n    }\n}"],"spec":"add source directly %s.inputOnly","subStack1":-1,"subStack2":-1,"type":" ","typeName":""}
+
+@QuranActivity.java_listview1_onBindCustomView
+{"color":-10589996,"id":"41","nextBlock":101,"opCode":"setVisible","parameters":["surahName","GONE"],"spec":"%m.view setVisible %m.visible","subStack1":-1,"subStack2":-1,"type":" ","typeName":""}
+{"color":-10589996,"id":"101","nextBlock":12,"opCode":"setVisible","parameters":["bismillah","GONE"],"spec":"%m.view setVisible %m.visible","subStack1":-1,"subStack2":-1,"type":" ","typeName":""}
+{"color":-876233,"id":"12","nextBlock":127,"opCode":"if","parameters":["@29"],"spec":"if %b then","subStack1":33,"subStack2":-1,"type":"c","typeName":""}
+{"color":-16729254,"id":"29","nextBlock":-1,"opCode":"stringEquals","parameters":["@30","بِسۡمِ ٱللَّهِ ٱلرَّحۡمَٰنِ ٱلرَّحِيمِ"],"spec":"%s equals %s","subStack1":-1,"subStack2":-1,"type":"b","typeName":""}
+{"color":-3123898,"id":"30","nextBlock":-1,"opCode":"getAtListMap","parameters":["@31","text","@36"],"spec":"get value at %d key %s of %m.listMap","subStack1":-1,"subStack2":-1,"type":"s","typeName":""}
+{"color":-7711273,"id":"31","nextBlock":-1,"opCode":"getArg","parameters":[],"spec":"position","subStack1":-1,"subStack2":-1,"type":"d","typeName":""}
+{"color":-7711273,"id":"36","nextBlock":-1,"opCode":"getArg","parameters":[],"spec":"data","subStack1":-1,"subStack2":-1,"type":"l","typeName":"List Map"}
+{"color":-3123898,"id":"33","nextBlock":-1,"opCode":"deleteList","parameters":["@34","@35"],"spec":"delete at %d of %m.list","subStack1":-1,"subStack2":-1,"type":" ","typeName":""}
+{"color":-7711273,"id":"34","nextBlock":-1,"opCode":"getArg","parameters":[],"spec":"position","subStack1":-1,"subStack2":-1,"type":"d","typeName":""}
+{"color":-7711273,"id":"35","nextBlock":-1,"opCode":"getArg","parameters":[],"spec":"data","subStack1":-1,"subStack2":-1,"type":"l","typeName":"List Map"}
+{"color":-876233,"id":"127","nextBlock":37,"opCode":"ifElse","parameters":["@38"],"spec":"if %b then","subStack1":15,"subStack2":140,"type":"e","typeName":""}
+{"color":-16729254,"id":"38","nextBlock":-1,"opCode":"\u003d","parameters":["@40","0"],"spec":"%d \u003d %d","subStack1":-1,"subStack2":-1,"type":"b","typeName":""}
+{"color":-7711273,"id":"40","nextBlock":-1,"opCode":"getArg","parameters":[],"spec":"position","subStack1":-1,"subStack2":-1,"type":"d","typeName":""}
+{"color":-10589996,"id":"15","nextBlock":102,"opCode":"setVisible","parameters":["surahName","VISIBLE"],"spec":"%m.view setVisible %m.visible","subStack1":-1,"subStack2":-1,"type":" ","typeName":""}
+{"color":-10589996,"id":"102","nextBlock":-1,"opCode":"setVisible","parameters":["bismillah","VISIBLE"],"spec":"%m.view setVisible %m.visible","subStack1":-1,"subStack2":-1,"type":" ","typeName":""}
+{"color":-10589996,"id":"140","nextBlock":141,"opCode":"setVisible","parameters":["surahName","GONE"],"spec":"%m.view setVisible %m.visible","subStack1":-1,"subStack2":-1,"type":" ","typeName":""}
+{"color":-10589996,"id":"141","nextBlock":-1,"opCode":"setVisible","parameters":["bismillah","GONE"],"spec":"%m.view setVisible %m.visible","subStack1":-1,"subStack2":-1,"type":" ","typeName":""}
+{"color":-876233,"id":"37","nextBlock":20,"opCode":"if","parameters":["@143"],"spec":"if %b then","subStack1":130,"subStack2":-1,"type":"c","typeName":""}
+{"color":-16729254,"id":"143","nextBlock":-1,"opCode":"\u0026\u0026","parameters":["@144","@142"],"spec":"%b and %b","subStack1":-1,"subStack2":-1,"type":"b","typeName":""}
+{"color":-16729254,"id":"144","nextBlock":-1,"opCode":"\u003d","parameters":["@145","0"],"spec":"%d \u003d %d","subStack1":-1,"subStack2":-1,"type":"b","typeName":""}
+{"color":-7711273,"id":"145","nextBlock":-1,"opCode":"getArg","parameters":[],"spec":"position","subStack1":-1,"subStack2":-1,"type":"d","typeName":""}
+{"color":-16729254,"id":"142","nextBlock":-1,"opCode":"stringEquals","parameters":["@129","9.0"],"spec":"%s equals %s","subStack1":-1,"subStack2":-1,"type":"b","typeName":""}
+{"color":-559806,"id":"129","nextBlock":-1,"opCode":"getVar","parameters":[],"spec":"id","subStack1":-1,"subStack2":-1,"type":"s","typeName":""}
+{"color":-10589996,"id":"130","nextBlock":-1,"opCode":"setVisible","parameters":["bismillah","GONE"],"spec":"%m.view setVisible %m.visible","subStack1":-1,"subStack2":-1,"type":" ","typeName":""}
+{"color":-10589996,"id":"20","nextBlock":24,"opCode":"setText","parameters":["verseText","@42"],"spec":"%m.textview setText %s","subStack1":-1,"subStack2":-1,"type":" ","typeName":""}
+{"color":-16729254,"id":"42","nextBlock":-1,"opCode":"stringJoin","parameters":["@44","@43"],"spec":"join %s and %s","subStack1":-1,"subStack2":-1,"type":"s","typeName":""}
+{"color":-3123898,"id":"44","nextBlock":-1,"opCode":"getAtListMap","parameters":["@45","text","@46"],"spec":"get value at %d key %s of %m.listMap","subStack1":-1,"subStack2":-1,"type":"s","typeName":""}
+{"color":-7711273,"id":"45","nextBlock":-1,"opCode":"getArg","parameters":[],"spec":"position","subStack1":-1,"subStack2":-1,"type":"d","typeName":""}
+{"color":-7711273,"id":"46","nextBlock":-1,"opCode":"getArg","parameters":[],"spec":"data","subStack1":-1,"subStack2":-1,"type":"l","typeName":"List Map"}
+{"color":-16729254,"id":"43","nextBlock":-1,"opCode":"stringJoin","parameters":["﴿","@47"],"spec":"join %s and %s","subStack1":-1,"subStack2":-1,"type":"s","typeName":""}
+{"color":-16729254,"id":"47","nextBlock":-1,"opCode":"stringJoin","parameters":["@82","﴾"],"spec":"join %s and %s","subStack1":-1,"subStack2":-1,"type":"s","typeName":""}
+{"color":-16729254,"id":"82","nextBlock":-1,"opCode":"toString","parameters":["@83"],"spec":"toString %d without decimal","subStack1":-1,"subStack2":-1,"type":"s","typeName":""}
+{"color":-16729254,"id":"83","nextBlock":-1,"opCode":"toNumber","parameters":["@48"],"spec":"toNumber %s","subStack1":-1,"subStack2":-1,"type":"d","typeName":""}
+{"color":-3123898,"id":"48","nextBlock":-1,"opCode":"getAtListMap","parameters":["@49","id","@50"],"spec":"get value at %d key %s of %m.listMap","subStack1":-1,"subStack2":-1,"type":"s","typeName":""}
+{"color":-7711273,"id":"49","nextBlock":-1,"opCode":"getArg","parameters":[],"spec":"position","subStack1":-1,"subStack2":-1,"type":"d","typeName":""}
+{"color":-7711273,"id":"50","nextBlock":-1,"opCode":"getArg","parameters":[],"spec":"data","subStack1":-1,"subStack2":-1,"type":"l","typeName":"List Map"}
+{"color":-10589996,"id":"24","nextBlock":10,"opCode":"setText","parameters":["translationText","@25"],"spec":"%m.textview setText %s","subStack1":-1,"subStack2":-1,"type":" ","typeName":""}
+{"color":-3123898,"id":"25","nextBlock":-1,"opCode":"getAtListMap","parameters":["@26","translation","@27"],"spec":"get value at %d key %s of %m.listMap","subStack1":-1,"subStack2":-1,"type":"s","typeName":""}
+{"color":-7711273,"id":"26","nextBlock":-1,"opCode":"getArg","parameters":[],"spec":"position","subStack1":-1,"subStack2":-1,"type":"d","typeName":""}
+{"color":-7711273,"id":"27","nextBlock":-1,"opCode":"getArg","parameters":[],"spec":"data","subStack1":-1,"subStack2":-1,"type":"l","typeName":"List Map"}
+{"color":-10589996,"id":"10","nextBlock":146,"opCode":"setTypeface","parameters":["verseText","isep_misbah","normal"],"spec":"%m.textview setTypeface %m.font with style %m.typeface","subStack1":-1,"subStack2":-1,"type":" ","typeName":""}
+{"color":-10589996,"id":"146","nextBlock":124,"opCode":"setText","parameters":["surahName","@148"],"spec":"%m.textview setText %s","subStack1":-1,"subStack2":-1,"type":" ","typeName":""}
+{"color":-16729254,"id":"148","nextBlock":-1,"opCode":"stringJoin","parameters":["@147","  surah-icon"],"spec":"join %s and %s","subStack1":-1,"subStack2":-1,"type":"s","typeName":""}
+{"color":-16729254,"id":"147","nextBlock":-1,"opCode":"asdString","parameters":["String.format(\"surah%03d\", idSurahInt)"],"spec":"string %s.inputOnly","subStack1":-1,"subStack2":-1,"type":"s","typeName":""}
+{"color":-10589996,"id":"124","nextBlock":51,"opCode":"setTypeface","parameters":["surahName","surah_name_v4","normal"],"spec":"%m.textview setTypeface %m.font with style %m.typeface","subStack1":-1,"subStack2":-1,"type":" ","typeName":""}
+{"color":-16729254,"id":"51","nextBlock":-1,"opCode":"addSourceDirectly","parameters":["applyVerseImages(verseText);"],"spec":"add source directly %s.inputOnly","subStack1":-1,"subStack2":-1,"type":" ","typeName":""}
+
+@InfoBottomdialogFragmentActivity.java_onCreate_initializeLogic
+{"color":-559806,"id":"39","nextBlock":42,"opCode":"setVarString","parameters":["id","@40"],"spec":"set %m.varStr to %s","subStack1":-1,"subStack2":-1,"type":" ","typeName":""}
+{"color":-16731791,"id":"40","nextBlock":-1,"opCode":"Recibe data from activity bundle","parameters":["surah"],"spec":"get data from bundle key %s","subStack1":-1,"subStack2":-1,"type":"s","typeName":""}
+{"color":-559806,"id":"42","nextBlock":41,"opCode":"setVarString","parameters":["AyaId","@43"],"spec":"set %m.varStr to %s","subStack1":-1,"subStack2":-1,"type":" ","typeName":""}
+{"color":-16731791,"id":"43","nextBlock":-1,"opCode":"Recibe data from activity bundle","parameters":["AyaId"],"spec":"get data from bundle key %s","subStack1":-1,"subStack2":-1,"type":"s","typeName":""}
+{"color":-16729254,"id":"41","nextBlock":37,"opCode":"addSourceDirectly","parameters":["int idSurahInt \u003d Integer.parseInt(id);"],"spec":"add source directly %s.inputOnly","subStack1":-1,"subStack2":-1,"type":" ","typeName":""}
+{"color":-10589996,"id":"37","nextBlock":24,"opCode":"setText","parameters":["textview1","@38"],"spec":"%m.textview setText %s","subStack1":-1,"subStack2":-1,"type":" ","typeName":""}
+{"color":-16729254,"id":"38","nextBlock":-1,"opCode":"asdString","parameters":["String.format(\"surah%03d\", idSurahInt)"],"spec":"string %s.inputOnly","subStack1":-1,"subStack2":-1,"type":"s","typeName":""}
+{"color":-10589996,"id":"24","nextBlock":26,"opCode":"setText","parameters":["textview2","@25"],"spec":"%m.textview setText %s","subStack1":-1,"subStack2":-1,"type":" ","typeName":""}
+{"color":-16731791,"id":"25","nextBlock":-1,"opCode":"Recibe data from activity bundle","parameters":["Transliterate"],"spec":"get data from bundle key %s","subStack1":-1,"subStack2":-1,"type":"s","typeName":""}
+{"color":-10589996,"id":"26","nextBlock":28,"opCode":"setText","parameters":["textviewAya","@27"],"spec":"%m.textview setText %s","subStack1":-1,"subStack2":-1,"type":" ","typeName":""}
+{"color":-16731791,"id":"27","nextBlock":-1,"opCode":"Recibe data from activity bundle","parameters":["Aya"],"spec":"get data from bundle key %s","subStack1":-1,"subStack2":-1,"type":"s","typeName":""}
+{"color":-10589996,"id":"28","nextBlock":10,"opCode":"setText","parameters":["textviewTranslation","@30"],"spec":"%m.textview setText %s","subStack1":-1,"subStack2":-1,"type":" ","typeName":""}
+{"color":-16729254,"id":"30","nextBlock":-1,"opCode":"stringJoin","parameters":["\"","@31"],"spec":"join %s and %s","subStack1":-1,"subStack2":-1,"type":"s","typeName":""}
+{"color":-16729254,"id":"31","nextBlock":-1,"opCode":"stringJoin","parameters":["@29","\""],"spec":"join %s and %s","subStack1":-1,"subStack2":-1,"type":"s","typeName":""}
+{"color":-16731791,"id":"29","nextBlock":-1,"opCode":"Recibe data from activity bundle","parameters":["Translation"],"spec":"get data from bundle key %s","subStack1":-1,"subStack2":-1,"type":"s","typeName":""}
+{"color":-7711273,"id":"10","nextBlock":22,"opCode":"definedFunc","parameters":[],"spec":"Ui","subStack1":-1,"subStack2":-1,"type":" ","typeName":""}
+{"color":-16731791,"id":"22","nextBlock":11,"opCode":"Instance variable_copy33","parameters":["130"],"spec":"setPeekHeight to %d","subStack1":-1,"subStack2":-1,"type":" ","typeName":""}
+{"color":-16731791,"id":"11","nextBlock":-1,"opCode":"hdhe fd","parameters":[],"spec":"addBottomSheetCallback onStateChanged (int newState)","subStack1":14,"subStack2":23,"type":"e","typeName":""}
+{"color":-876233,"id":"14","nextBlock":-1,"opCode":"switchStr","parameters":["@36"],"spec":"switch %s","subStack1":15,"subStack2":-1,"type":"c","typeName":""}
+{"color":-16739175,"id":"36","nextBlock":-1,"opCode":"mid6ime6 jlfil_copy44","parameters":[],"spec":"newState","subStack1":-1,"subStack2":-1,"type":"s","typeName":""}
+{"color":-876233,"id":"15","nextBlock":16,"opCode":"caseStr","parameters":["@19"],"spec":"case %s","subStack1":32,"subStack2":-1,"type":"c","typeName":""}
+{"color":-16731791,"id":"19","nextBlock":-1,"opCode":"mid6ime6 jlfil_copy39","parameters":[],"spec":"STATE_EXPANDED","subStack1":-1,"subStack2":-1,"type":"s","typeName":""}
+{"color":-10589996,"id":"32","nextBlock":-1,"opCode":"setImage","parameters":["imageview3","collapse"],"spec":"%m.imageview setImage %m.resource","subStack1":-1,"subStack2":-1,"type":" ","typeName":""}
+{"color":-876233,"id":"16","nextBlock":45,"opCode":"caseStr","parameters":["@20"],"spec":"case %s","subStack1":35,"subStack2":-1,"type":"c","typeName":""}
+{"color":-10237846,"id":"20","nextBlock":-1,"opCode":"mid6ime6 jlfil_copy69","parameters":[],"spec":"STATE_COLLAPSED","subStack1":-1,"subStack2":-1,"type":"s","typeName":""}
+{"color":-10589996,"id":"35","nextBlock":-1,"opCode":"setImage","parameters":["imageview3","expand"],"spec":"%m.imageview setImage %m.resource","subStack1":-1,"subStack2":-1,"type":" ","typeName":""}
+{"color":-876233,"id":"45","nextBlock":17,"opCode":"caseStr","parameters":["@46"],"spec":"case %s","subStack1":-1,"subStack2":-1,"type":"c","typeName":""}
+{"color":-44197,"id":"46","nextBlock":-1,"opCode":"mid6ime6 jlfil_copy81","parameters":[],"spec":"STATE_HIDDEN","subStack1":-1,"subStack2":-1,"type":"s","typeName":""}
+{"color":-876233,"id":"17","nextBlock":-1,"opCode":"defaultSwitch","parameters":[],"spec":"default","subStack1":-1,"subStack2":-1,"type":"c","typeName":""}
+{"color":-16729254,"id":"23","nextBlock":-1,"opCode":"addSourceDirectly","parameters":["// Change the alpha of a view based on the slide\n                // slideOffset goes from 0.0 (collapsed) to 1.0 (expanded)\n                // and 0.0 to -1.0 when hiding.\n                if (getView() !\u003d null) {\n                    getView().setAlpha(Math.max(0f, 1f + slideOffset));\n}"],"spec":"add source directly %s.inputOnly","subStack1":-1,"subStack2":-1,"type":" ","typeName":""}
+
+@InfoBottomdialogFragmentActivity.java_yg_MoreBlockMaker
+{"color":-16729254,"id":"10","nextBlock":11,"opCode":"addSourceDirectly","parameters":["private void applyVerseImages(TextView tv) {\n    String text \u003d tv.getText().toString();\n    if (TextUtils.isEmpty(text)) return;\n    \n    SpannableStringBuilder ssb \u003d new SpannableStringBuilder(text);\n    // Added parentheses () to capture the number and \\\\s* to handle potential spaces\n    Pattern pattern \u003d Pattern.compile(\"﴿\\\\s*(\\\\d+)\\\\s*﴾\");\n    Matcher matcher \u003d pattern.matcher(text);\n    \n    int size \u003d (int) (tv.getTextSize() * 1.3);\n    \n    while (matcher.find()) {\n        try {\n            // Now group(1) will correctly pull only the digits\n            String verseNumber \u003d matcher.group(1); \n            \n            Drawable combinedDrawable \u003d drawableCache.get(verseNumber);\n            \n            if (combinedDrawable \u003d\u003d null) {\n                combinedDrawable \u003d getVerseDrawable(verseNumber, size);\n                drawableCache.put(verseNumber, combinedDrawable);\n            }\n            \n            if (combinedDrawable !\u003d null) {\n                combinedDrawable.setBounds(0, 0, size, size);\n                ImageSpan imageSpan \u003d new ImageSpan(combinedDrawable, ImageSpan.ALIGN_BASELINE);\n                ssb.setSpan(imageSpan, matcher.start(), matcher.end(), Spannable.SPAN_EXCLUSIVE_EXCLUSIVE);\n            }\n        } catch (Exception e) {\n            // This prevents a single bad marker from crashing the whole app\n            Log.e(\"VerseError\", \"Error processing marker at \" + matcher.start());\n        }\n    }\n    tv.setText(ssb);\n}"],"spec":"add source directly %s.inputOnly","subStack1":-1,"subStack2":-1,"type":" ","typeName":""}
+{"color":-16729254,"id":"11","nextBlock":12,"opCode":"addSourceDirectly","parameters":["private Drawable getVerseDrawable(String number, int size) {\n    // 1. Load the frame image\n    Bitmap frame \u003d BitmapFactory.decodeResource(getResources(), R.drawable.ayat);\n    Bitmap scaledFrame \u003d Bitmap.createScaledBitmap(frame, size, size, true);\n    \n    // 2. Create a blank canvas to draw on\n    Bitmap canvasBitmap \u003d Bitmap.createBitmap(size, size, Bitmap.Config.ARGB_8888);\n    Canvas canvas \u003d new Canvas(canvasBitmap);\n    \n    // 3. Draw the frame\n    canvas.drawBitmap(scaledFrame, 0, 0, null);\n    \n    // 4. Draw the number in the center\n    Paint paint \u003d new Paint(Paint.ANTI_ALIAS_FLAG);\n    paint.setColor(getResources().getColor(R.color.text_primary)); // Set number color\n    paint.setTextSize(size * 0.4f); // Adjust size to fit inside frame\n    paint.setTextAlign(Paint.Align.CENTER);\n    \n    // Calculate center position\n    float xPos \u003d canvas.getWidth() / 2;\n    float yPos \u003d (canvas.getHeight() / 2) - ((paint.descent() + paint.ascent()) / 2);\n    \n    canvas.drawText(number, xPos, yPos, paint);\n    \n    return new BitmapDrawable(getResources(), canvasBitmap);\n}\n\n"],"spec":"add source directly %s.inputOnly","subStack1":-1,"subStack2":-1,"type":" ","typeName":""}
+{"color":-16729254,"id":"12","nextBlock":-1,"opCode":"addSourceDirectly","parameters":["private void selectVerse(TextView tv, int offset) {\n    CharSequence text \u003d tv.getText();\n    if (!(text instanceof Spannable)) return;\n    \n    Spannable spannable \u003d (Spannable) text;\n    int length \u003d spannable.length();\n    if (offset \u003c 0 || offset \u003e\u003d length) return;\n    \n    // We use the same pattern as applyVerseImages\n    Pattern pattern \u003d Pattern.compile(\"﴿\\\\s*(\\\\d+)\\\\s*﴾\");\n    Matcher matcher \u003d pattern.matcher(text.toString());\n    \n    int verseStart \u003d 0;\n    int verseEnd \u003d length;\n    int lastMarkerEnd \u003d 0;\n    boolean found \u003d false;\n    \n    while (matcher.find()) {\n        int markerEnd \u003d matcher.end();\n        // If the tap is before the end of this marker, this is our verse!\n        if (offset \u003c markerEnd) {\n            verseStart \u003d lastMarkerEnd;\n            verseEnd \u003d markerEnd;\n            found \u003d true;\n            break;\n        }\n        lastMarkerEnd \u003d markerEnd;\n    }\n    \n    // If tap was after the last marker\n    if (!found) {\n        verseStart \u003d lastMarkerEnd;\n        verseEnd \u003d length;\n    }\n    \n    // Safety check for empty ranges\n    if (verseStart \u003e\u003d verseEnd) return;\n\n    // Remove old highlights\n    BackgroundColorSpan[] spans \u003d spannable.getSpans(0, length, BackgroundColorSpan.class);\n    for (BackgroundColorSpan span : spans) {\n        spannable.removeSpan(span);\n    }\n    \n    // Update the global selectedVerse variable for the copy function\n    selectedVerse \u003d text.toString().substring(verseStart, verseEnd).trim();\n    currentTap \u003d selectedVerse;\n\n    // Apply the highlight (0x5590EE90 is semi-transparent light green)\n    spannable.setSpan(\n        new BackgroundColorSpan(0x5590EE90),\n        verseStart,\n        verseEnd,\n        Spannable.SPAN_EXCLUSIVE_EXCLUSIVE\n    );\n    \n    // IMPORTANT: DO NOT call tv.setText(spannable) here.\n    // The view will update automatically because we modified the existing spannable object.\n}"],"spec":"add source directly %s.inputOnly","subStack1":-1,"subStack2":-1,"type":" ","typeName":""}
+
+@InfoBottomdialogFragmentActivity.java_askAi_onErrorResponse
+{"color":-876233,"id":"24","nextBlock":-1,"opCode":"if","parameters":["@26"],"spec":"if %b then","subStack1":17,"subStack2":-1,"type":"c","typeName":""}
+{"color":-1829227,"id":"26","nextBlock":-1,"opCode":"asdBoolean","parameters":["getView() !\u003d null"],"spec":"boolean %s.inputOnly","subStack1":-1,"subStack2":-1,"type":"b","typeName":""}
+{"color":-10589996,"id":"17","nextBlock":19,"opCode":"setText","parameters":["tvAiMessage","@23"],"spec":"%m.textview setText %s","subStack1":-1,"subStack2":-1,"type":" ","typeName":""}
+{"color":-8224294,"id":"23","nextBlock":-1,"opCode":"getResStr","parameters":[],"spec":"error_ai_connection","subStack1":-1,"subStack2":-1,"type":"s","typeName":""}
+{"color":-10589996,"id":"19","nextBlock":20,"opCode":"setVisible","parameters":["linearThinking","GONE"],"spec":"%m.view setVisible %m.visible","subStack1":-1,"subStack2":-1,"type":" ","typeName":""}
+{"color":-16729254,"id":"20","nextBlock":21,"opCode":"addSourceDirectly","parameters":["linearThinking.animate().translationY(500); "],"spec":"add source directly %s.inputOnly","subStack1":-1,"subStack2":-1,"type":" ","typeName":""}
+{"color":-10589996,"id":"21","nextBlock":22,"opCode":"setVisible","parameters":["linearAiResponse","VISIBLE"],"spec":"%m.view setVisible %m.visible","subStack1":-1,"subStack2":-1,"type":" ","typeName":""}
+{"color":-16729254,"id":"22","nextBlock":-1,"opCode":"addSourceDirectly","parameters":["linearAiResponse.animate().translationY(0); "],"spec":"add source directly %s.inputOnly","subStack1":-1,"subStack2":-1,"type":" ","typeName":""}
+
+@InfoBottomdialogFragmentActivity.java_Import_Import
+{"color":-16729254,"id":"10","nextBlock":-1,"opCode":"addSourceDirectly","parameters":["import com.google.gson.internal.LinkedTreeMap;"],"spec":"add source directly %s.inputOnly","subStack1":-1,"subStack2":-1,"type":" ","typeName":""}
+
+@InfoBottomdialogFragmentActivity.java_askAi_onResponse
+{"color":-876233,"id":"19","nextBlock":-1,"opCode":"if","parameters":["@20"],"spec":"if %b then","subStack1":12,"subStack2":-1,"type":"c","typeName":""}
+{"color":-1829227,"id":"20","nextBlock":-1,"opCode":"asdBoolean","parameters":["getView() !\u003d null"],"spec":"boolean %s.inputOnly","subStack1":-1,"subStack2":-1,"type":"b","typeName":""}
+{"color":-16729254,"id":"12","nextBlock":14,"opCode":"strToMap","parameters":["@13","map"],"spec":"JSON %s to %m.varMap","subStack1":-1,"subStack2":-1,"type":" ","typeName":""}
+{"color":-7711273,"id":"13","nextBlock":-1,"opCode":"getArg","parameters":[],"spec":"response","subStack1":-1,"subStack2":-1,"type":"s","typeName":""}
+{"color":-16729254,"id":"14","nextBlock":15,"opCode":"addSourceDirectly","parameters":["ArrayList\u003cLinkedTreeMap\u003cString, Object\u003e\u003e choices \u003d (ArrayList\u003cLinkedTreeMap\u003cString, Object\u003e\u003e) map.get(\"choices\");\n\nif (choices !\u003d null \u0026\u0026 !choices.isEmpty()) {\n    LinkedTreeMap\u003cString, Object\u003e message \u003d (LinkedTreeMap\u003cString, Object\u003e) choices.get(0).get(\"message\");\n    \n    if (message !\u003d null) {\n        String content \u003d (String) message.get(\"content\");\n        sako \u003d content;\n\n}\n}"],"spec":"add source directly %s.inputOnly","subStack1":-1,"subStack2":-1,"type":" ","typeName":""}
+{"color":-10589996,"id":"15","nextBlock":10,"opCode":"setText","parameters":["tvAiMessage","@16"],"spec":"%m.textview setText %s","subStack1":-1,"subStack2":-1,"type":" ","typeName":""}
+{"color":-559806,"id":"16","nextBlock":-1,"opCode":"getVar","parameters":[],"spec":"sako","subStack1":-1,"subStack2":-1,"type":"s","typeName":""}
+{"color":-10589996,"id":"10","nextBlock":18,"opCode":"setVisible","parameters":["linearThinking","GONE"],"spec":"%m.view setVisible %m.visible","subStack1":-1,"subStack2":-1,"type":" ","typeName":""}
+{"color":-16729254,"id":"18","nextBlock":11,"opCode":"addSourceDirectly","parameters":["linearThinking.animate().translationY(500); "],"spec":"add source directly %s.inputOnly","subStack1":-1,"subStack2":-1,"type":" ","typeName":""}
+{"color":-10589996,"id":"11","nextBlock":17,"opCode":"setVisible","parameters":["linearAiResponse","VISIBLE"],"spec":"%m.view setVisible %m.visible","subStack1":-1,"subStack2":-1,"type":" ","typeName":""}
+{"color":-16729254,"id":"17","nextBlock":-1,"opCode":"addSourceDirectly","parameters":["linearAiResponse.animate().translationY(0); "],"spec":"add source directly %s.inputOnly","subStack1":-1,"subStack2":-1,"type":" ","typeName":""}
+
+@InfoBottomdialogFragmentActivity.java_textview6_onClick
+{"color":-10589996,"id":"10","nextBlock":17,"opCode":"setVisible","parameters":["linearThinking","VISIBLE"],"spec":"%m.view setVisible %m.visible","subStack1":-1,"subStack2":-1,"type":" ","typeName":""}
+{"color":-16729254,"id":"17","nextBlock":12,"opCode":"addSourceDirectly","parameters":["linearThinking.animate().translationY(0); "],"spec":"add source directly %s.inputOnly","subStack1":-1,"subStack2":-1,"type":" ","typeName":""}
+{"color":-11165715,"id":"12","nextBlock":-1,"opCode":"requestnetworkStartRequestNetwork","parameters":["askAi","GET","@13",""],"spec":"%m.requestnetwork start network request to method %m.method to url %s with tag %s","subStack1":-1,"subStack2":-1,"type":" ","typeName":""}
+{"color":-16729254,"id":"13","nextBlock":-1,"opCode":"stringJoin","parameters":["https://bf31jhdm60.execute-api.eu-west-2.amazonaws.com/dev/ask/","@14"],"spec":"join %s and %s","subStack1":-1,"subStack2":-1,"type":"s","typeName":""}
+{"color":-16729254,"id":"14","nextBlock":-1,"opCode":"stringJoin","parameters":["Recitation guide for verse ","@15"],"spec":"join %s and %s","subStack1":-1,"subStack2":-1,"type":"s","typeName":""}
+{"color":-16729254,"id":"15","nextBlock":-1,"opCode":"stringJoin","parameters":["@22","@19"],"spec":"join %s and %s","subStack1":-1,"subStack2":-1,"type":"s","typeName":""}
+{"color":-559806,"id":"22","nextBlock":-1,"opCode":"getVar","parameters":[],"spec":"AyaId","subStack1":-1,"subStack2":-1,"type":"s","typeName":""}
+{"color":-16729254,"id":"19","nextBlock":-1,"opCode":"stringJoin","parameters":[" In quran chapter ","@20"],"spec":"join %s and %s","subStack1":-1,"subStack2":-1,"type":"s","typeName":""}
+{"color":-559806,"id":"20","nextBlock":-1,"opCode":"getVar","parameters":[],"spec":"id","subStack1":-1,"subStack2":-1,"type":"s","typeName":""}
+
+@InfoBottomdialogFragmentActivity.java_Ui_moreBlock
+{"color":-4628993,"id":"32","nextBlock":10,"opCode":"addCustomVariable","parameters":["// Stores generated drawables to save memory and CPU\nprivate final Map\u003cString, Drawable\u003e drawableCache \u003d new HashMap\u003c\u003e();"],"spec":"Custom Variable Block: add variable %s","subStack1":-1,"subStack2":-1,"type":" ","typeName":""}
+{"color":-1829227,"id":"10","nextBlock":30,"opCode":"corr","parameters":["linear1","R.color.backgroundColor","R.color.backgroundColor","25","25","","","","R.color.colorPrimary","","@11"],"spec":" %m.view  Color :[ %m.color \u0026 %m.color ] Radius : [ ↖ %d ↗ %d ↙ %d ↘ %d ] Stork : [ Size %d  Color %m.color ] Shadow %d  Orientation %m.gradient","subStack1":-1,"subStack2":-1,"type":" ","typeName":""}
+{"color":-1829227,"id":"11","nextBlock":-1,"opCode":"hrh","parameters":[],"spec":"Top to Bottom","subStack1":-1,"subStack2":-1,"type":"v","typeName":"gradient"}
+{"color":-10589996,"id":"30","nextBlock":53,"opCode":"setTypeface","parameters":["textview1","surah_name_v4","normal"],"spec":"%m.textview setTypeface %m.font with style %m.typeface","subStack1":-1,"subStack2":-1,"type":" ","typeName":""}
+{"color":-16729254,"id":"53","nextBlock":44,"opCode":"addSourceDirectly","parameters":["applyVerseImages(textviewAya);"],"spec":"add source directly %s.inputOnly","subStack1":-1,"subStack2":-1,"type":" ","typeName":""}
+{"color":-10589996,"id":"44","nextBlock":45,"opCode":"setTypeface","parameters":["textviewAya","isep_misbah","normal"],"spec":"%m.textview setTypeface %m.font with style %m.typeface","subStack1":-1,"subStack2":-1,"type":" ","typeName":""}
+{"color":-16732572,"id":"45","nextBlock":47,"opCode":"setRadiusAndStrokeView","parameters":["linear5","25","1","R.color.card_stroke","R.color.pop"],"spec":"%m.view setCornerRadius %d stroke %d strokeColor %m.color bgColor %m.color","subStack1":-1,"subStack2":-1,"type":" ","typeName":""}
+{"color":-10589996,"id":"47","nextBlock":48,"opCode":"setCornerRadiusView","parameters":["linear2","5","0xFF616161"],"spec":"%m.view setCornerRadius %d color %m.color","subStack1":-1,"subStack2":-1,"type":" ","typeName":""}
+{"color":-10589996,"id":"48","nextBlock":49,"opCode":"setCornerRadiusView","parameters":["textview4","25","R.color.pop"],"spec":"%m.view setCornerRadius %d color %m.color","subStack1":-1,"subStack2":-1,"type":" ","typeName":""}
+{"color":-10589996,"id":"49","nextBlock":50,"opCode":"setCornerRadiusView","parameters":["textview5","25","R.color.pop"],"spec":"%m.view setCornerRadius %d color %m.color","subStack1":-1,"subStack2":-1,"type":" ","typeName":""}
+{"color":-10589996,"id":"50","nextBlock":51,"opCode":"setCornerRadiusView","parameters":["textview6","25","R.color.pop"],"spec":"%m.view setCornerRadius %d color %m.color","subStack1":-1,"subStack2":-1,"type":" ","typeName":""}
+{"color":-10589996,"id":"51","nextBlock":52,"opCode":"setVisible","parameters":["linearThinking","GONE"],"spec":"%m.view setVisible %m.visible","subStack1":-1,"subStack2":-1,"type":" ","typeName":""}
+{"color":-10589996,"id":"52","nextBlock":54,"opCode":"setVisible","parameters":["linearAiResponse","GONE"],"spec":"%m.view setVisible %m.visible","subStack1":-1,"subStack2":-1,"type":" ","typeName":""}
+{"color":-4627457,"id":"54","nextBlock":55,"opCode":"setElevation","parameters":["textview4","2"],"spec":"%m.view setElevation %d","subStack1":-1,"subStack2":-1,"type":" ","typeName":""}
+{"color":-4627457,"id":"55","nextBlock":56,"opCode":"setElevation","parameters":["textview5","2"],"spec":"%m.view setElevation %d","subStack1":-1,"subStack2":-1,"type":" ","typeName":""}
+{"color":-4627457,"id":"56","nextBlock":-1,"opCode":"setElevation","parameters":["textview6","2"],"spec":"%m.view setElevation %d","subStack1":-1,"subStack2":-1,"type":" ","typeName":""}
+
+@InfoBottomdialogFragmentActivity.java_textview5_onClick
+{"color":-10589996,"id":"10","nextBlock":23,"opCode":"setVisible","parameters":["linearThinking","VISIBLE"],"spec":"%m.view setVisible %m.visible","subStack1":-1,"subStack2":-1,"type":" ","typeName":""}
+{"color":-16729254,"id":"23","nextBlock":12,"opCode":"addSourceDirectly","parameters":["linearThinking.animate().translationY(0); "],"spec":"add source directly %s.inputOnly","subStack1":-1,"subStack2":-1,"type":" ","typeName":""}
+{"color":-11165715,"id":"12","nextBlock":-1,"opCode":"requestnetworkStartRequestNetwork","parameters":["askAi","GET","@13",""],"spec":"%m.requestnetwork start network request to method %m.method to url %s with tag %s","subStack1":-1,"subStack2":-1,"type":" ","typeName":""}
+{"color":-16729254,"id":"13","nextBlock":-1,"opCode":"stringJoin","parameters":["https://bf31jhdm60.execute-api.eu-west-2.amazonaws.com/dev/ask/","@14"],"spec":"join %s and %s","subStack1":-1,"subStack2":-1,"type":"s","typeName":""}
+{"color":-16729254,"id":"14","nextBlock":-1,"opCode":"stringJoin","parameters":["Historical context of verse ","@15"],"spec":"join %s and %s","subStack1":-1,"subStack2":-1,"type":"s","typeName":""}
+{"color":-16729254,"id":"15","nextBlock":-1,"opCode":"stringJoin","parameters":["@28","@25"],"spec":"join %s and %s","subStack1":-1,"subStack2":-1,"type":"s","typeName":""}
+{"color":-559806,"id":"28","nextBlock":-1,"opCode":"getVar","parameters":[],"spec":"AyaId","subStack1":-1,"subStack2":-1,"type":"s","typeName":""}
+{"color":-16729254,"id":"25","nextBlock":-1,"opCode":"stringJoin","parameters":[" In quran chapter ","@26"],"spec":"join %s and %s","subStack1":-1,"subStack2":-1,"type":"s","typeName":""}
+{"color":-559806,"id":"26","nextBlock":-1,"opCode":"getVar","parameters":[],"spec":"id","subStack1":-1,"subStack2":-1,"type":"s","typeName":""}
+
+@InfoBottomdialogFragmentActivity.java_textview4_onClick
+{"color":-10589996,"id":"10","nextBlock":36,"opCode":"setVisible","parameters":["linearThinking","VISIBLE"],"spec":"%m.view setVisible %m.visible","subStack1":-1,"subStack2":-1,"type":" ","typeName":""}
+{"color":-16729254,"id":"36","nextBlock":12,"opCode":"addSourceDirectly","parameters":["linearThinking.animate().translationY(0); "],"spec":"add source directly %s.inputOnly","subStack1":-1,"subStack2":-1,"type":" ","typeName":""}
+{"color":-11165715,"id":"12","nextBlock":-1,"opCode":"requestnetworkStartRequestNetwork","parameters":["askAi","GET","@13",""],"spec":"%m.requestnetwork start network request to method %m.method to url %s with tag %s","subStack1":-1,"subStack2":-1,"type":" ","typeName":""}
+{"color":-16729254,"id":"13","nextBlock":-1,"opCode":"stringJoin","parameters":["https://bf31jhdm60.execute-api.eu-west-2.amazonaws.com/dev/ask/","@37"],"spec":"join %s and %s","subStack1":-1,"subStack2":-1,"type":"s","typeName":""}
+{"color":-16729254,"id":"37","nextBlock":-1,"opCode":"stringJoin","parameters":["@15","@14"],"spec":"join %s and %s","subStack1":-1,"subStack2":-1,"type":"s","typeName":""}
+{"color":-16729254,"id":"15","nextBlock":-1,"opCode":"stringJoin","parameters":["In quran chapter ","@38"],"spec":"join %s and %s","subStack1":-1,"subStack2":-1,"type":"s","typeName":""}
+{"color":-559806,"id":"38","nextBlock":-1,"opCode":"getVar","parameters":[],"spec":"id","subStack1":-1,"subStack2":-1,"type":"s","typeName":""}
+{"color":-16729254,"id":"14","nextBlock":-1,"opCode":"stringJoin","parameters":["Explain verse ","@39"],"spec":"join %s and %s","subStack1":-1,"subStack2":-1,"type":"s","typeName":""}
+{"color":-559806,"id":"39","nextBlock":-1,"opCode":"getVar","parameters":[],"spec":"AyaId","subStack1":-1,"subStack2":-1,"type":"s","typeName":""}
+
+@InfoBottomdialogFragmentActivity.java_imageview3_onClick
+{"color":-876233,"id":"10","nextBlock":-1,"opCode":"ifElse","parameters":["@11"],"spec":"if %b then","subStack1":15,"subStack2":16,"type":"e","typeName":""}
+{"color":-16727661,"id":"11","nextBlock":-1,"opCode":"custom boolean","parameters":["@12","@19","@13"],"spec":"%s  %s  %s","subStack1":-1,"subStack2":-1,"type":"b","typeName":""}
+{"color":-16739175,"id":"12","nextBlock":-1,"opCode":"mid6ime6 jlfil","parameters":[],"spec":"BottomSheetDialog.getState()","subStack1":-1,"subStack2":-1,"type":"s","typeName":""}
+{"color":-16729254,"id":"19","nextBlock":-1,"opCode":"asdString","parameters":["\u003d\u003d"],"spec":"string %s.inputOnly","subStack1":-1,"subStack2":-1,"type":"s","typeName":""}
+{"color":-16731791,"id":"13","nextBlock":-1,"opCode":"mid6ime6 jlfil_copy39","parameters":[],"spec":"STATE_EXPANDED","subStack1":-1,"subStack2":-1,"type":"s","typeName":""}
+{"color":-16731791,"id":"15","nextBlock":-1,"opCode":"setState","parameters":["@14"],"spec":"BottomSheetDialog.setState%s ","subStack1":-1,"subStack2":-1,"type":" ","typeName":""}
+{"color":-10237846,"id":"14","nextBlock":-1,"opCode":"mid6ime6 jlfil_copy69","parameters":[],"spec":"STATE_COLLAPSED","subStack1":-1,"subStack2":-1,"type":"s","typeName":""}
+{"color":-16731791,"id":"16","nextBlock":-1,"opCode":"setState","parameters":["@18"],"spec":"BottomSheetDialog.setState%s ","subStack1":-1,"subStack2":-1,"type":" ","typeName":""}
+{"color":-16731791,"id":"18","nextBlock":-1,"opCode":"mid6ime6 jlfil_copy39","parameters":[],"spec":"STATE_EXPANDED","subStack1":-1,"subStack2":-1,"type":"s","typeName":""}
+
+@InfoBottomdialogFragmentActivity.java_tvAiMessage_ onLongClick
+{"color":-11165715,"id":"10","nextBlock":12,"opCode":"copyToClipboard","parameters":["@11"],"spec":"copyToClipboard %s","subStack1":-1,"subStack2":-1,"type":" ","typeName":""}
+{"color":-10589996,"id":"11","nextBlock":-1,"opCode":"getText","parameters":["tvAiMessage"],"spec":"%m.textview getText","subStack1":-1,"subStack2":-1,"type":"s","typeName":""}
+{"color":-11165715,"id":"12","nextBlock":-1,"opCode":"doToast","parameters":["Text copied to clipboard"],"spec":"Toast %s","subStack1":-1,"subStack2":-1,"type":" ","typeName":""}
+
+@InfoBottomdialogFragmentActivity.java_copyBtn_onClick
+{"color":-11165715,"id":"10","nextBlock":11,"opCode":"copyToClipboard","parameters":["@12"],"spec":"copyToClipboard %s","subStack1":-1,"subStack2":-1,"type":" ","typeName":""}
+{"color":-16729254,"id":"12","nextBlock":-1,"opCode":"stringJoin","parameters":["@14","@13"],"spec":"join %s and %s","subStack1":-1,"subStack2":-1,"type":"s","typeName":""}
+{"color":-16731791,"id":"14","nextBlock":-1,"opCode":"Recibe data from activity bundle","parameters":["Aya"],"spec":"get data from bundle key %s","subStack1":-1,"subStack2":-1,"type":"s","typeName":""}
+{"color":-16729254,"id":"13","nextBlock":-1,"opCode":"stringJoin","parameters":["\n\n------------------------------------------------------\n\n","@15"],"spec":"join %s and %s","subStack1":-1,"subStack2":-1,"type":"s","typeName":""}
+{"color":-16731791,"id":"15","nextBlock":-1,"opCode":"Recibe data from activity bundle","parameters":["Translation"],"spec":"get data from bundle key %s","subStack1":-1,"subStack2":-1,"type":"s","typeName":""}
+{"color":-11165715,"id":"11","nextBlock":-1,"opCode":"doToast","parameters":["Ayah copied"],"spec":"Toast %s","subStack1":-1,"subStack2":-1,"type":" ","typeName":""}
+
+@MainActivity.java_onCreate_initializeLogic
+{"color":-7711273,"id":"21","nextBlock":23,"opCode":"definedFunc","parameters":[],"spec":"currently","subStack1":-1,"subStack2":-1,"type":" ","typeName":""}
+{"color":-11571242,"id":"23","nextBlock":-1,"opCode":"setWindowProperties","parameters":["@25"],"spec":"set application properties %m.design","subStack1":-1,"subStack2":-1,"type":" ","typeName":""}
+{"color":-11571242,"id":"25","nextBlock":-1,"opCode":"hide navigation bar","parameters":[],"spec":"hide navigation bar","subStack1":-1,"subStack2":-1,"type":"v","typeName":"design"}
+
+@MainActivity.java_Import_Import
+{"color":-559806,"id":"10","nextBlock":-1,"opCode":"customImport2","parameters":["androidx.viewpager.widget.ViewPager"],"spec":"import %m.import","subStack1":-1,"subStack2":-1,"type":" ","typeName":""}
+
+@MainActivity.java_viewpager1_onPageSelected
+{"color":-16729254,"id":"12","nextBlock":-1,"opCode":"addSourceDirectly","parameters":["Menu menu \u003d bottomnavigation1.getMenu();\nint index \u003d _position; \nMenuItem item \u003d menu.getItem(index);\nitem.setChecked(true);"],"spec":"add source directly %s.inputOnly","subStack1":-1,"subStack2":-1,"type":" ","typeName":""}
+
+@MainActivity.java_fa_onFragmentAdded
+{"color":-876233,"id":"10","nextBlock":14,"opCode":"if","parameters":["@11"],"spec":"if %b then","subStack1":31,"subStack2":-1,"type":"c","typeName":""}
+{"color":-16729254,"id":"11","nextBlock":-1,"opCode":"\u003d","parameters":["@12",""],"spec":"%d \u003d %d","subStack1":-1,"subStack2":-1,"type":"b","typeName":""}
+{"color":-7711273,"id":"12","nextBlock":-1,"opCode":"getArg","parameters":[],"spec":"position","subStack1":-1,"subStack2":-1,"type":"d","typeName":""}
+{"color":-14575885,"id":"31","nextBlock":-1,"opCode":"returnFragment","parameters":["HomeFragmentActivity"],"spec":"return Fragment %m.activity","subStack1":-1,"subStack2":-1,"type":"f","typeName":""}
+{"color":-876233,"id":"14","nextBlock":18,"opCode":"if","parameters":["@15"],"spec":"if %b then","subStack1":32,"subStack2":-1,"type":"c","typeName":""}
+{"color":-16729254,"id":"15","nextBlock":-1,"opCode":"\u003d","parameters":["@16","1"],"spec":"%d \u003d %d","subStack1":-1,"subStack2":-1,"type":"b","typeName":""}
+{"color":-7711273,"id":"16","nextBlock":-1,"opCode":"getArg","parameters":[],"spec":"position","subStack1":-1,"subStack2":-1,"type":"d","typeName":""}
+{"color":-14575885,"id":"32","nextBlock":-1,"opCode":"returnFragment","parameters":["QuranFragmentActivity"],"spec":"return Fragment %m.activity","subStack1":-1,"subStack2":-1,"type":"f","typeName":""}
+{"color":-876233,"id":"18","nextBlock":22,"opCode":"if","parameters":["@19"],"spec":"if %b then","subStack1":33,"subStack2":-1,"type":"c","typeName":""}
+{"color":-16729254,"id":"19","nextBlock":-1,"opCode":"\u003d","parameters":["@20","2"],"spec":"%d \u003d %d","subStack1":-1,"subStack2":-1,"type":"b","typeName":""}
+{"color":-7711273,"id":"20","nextBlock":-1,"opCode":"getArg","parameters":[],"spec":"position","subStack1":-1,"subStack2":-1,"type":"d","typeName":""}
+{"color":-14575885,"id":"33","nextBlock":-1,"opCode":"returnFragment","parameters":["ChatFragmentActivity"],"spec":"return Fragment %m.activity","subStack1":-1,"subStack2":-1,"type":"f","typeName":""}
+{"color":-876233,"id":"22","nextBlock":26,"opCode":"if","parameters":["@23"],"spec":"if %b then","subStack1":34,"subStack2":-1,"type":"c","typeName":""}
+{"color":-16729254,"id":"23","nextBlock":-1,"opCode":"\u003d","parameters":["@24","3"],"spec":"%d \u003d %d","subStack1":-1,"subStack2":-1,"type":"b","typeName":""}
+{"color":-7711273,"id":"24","nextBlock":-1,"opCode":"getArg","parameters":[],"spec":"position","subStack1":-1,"subStack2":-1,"type":"d","typeName":""}
+{"color":-14575885,"id":"34","nextBlock":-1,"opCode":"returnFragment","parameters":["DiscoverFragmentActivity"],"spec":"return Fragment %m.activity","subStack1":-1,"subStack2":-1,"type":"f","typeName":""}
+{"color":-876233,"id":"26","nextBlock":-1,"opCode":"if","parameters":["@27"],"spec":"if %b then","subStack1":35,"subStack2":-1,"type":"c","typeName":""}
+{"color":-16729254,"id":"27","nextBlock":-1,"opCode":"\u003d","parameters":["@28","4"],"spec":"%d \u003d %d","subStack1":-1,"subStack2":-1,"type":"b","typeName":""}
+{"color":-7711273,"id":"28","nextBlock":-1,"opCode":"getArg","parameters":[],"spec":"position","subStack1":-1,"subStack2":-1,"type":"d","typeName":""}
+{"color":-14575885,"id":"35","nextBlock":-1,"opCode":"returnFragment","parameters":["SettingsFragmentActivity"],"spec":"return Fragment %m.activity","subStack1":-1,"subStack2":-1,"type":"f","typeName":""}
+
+@MainActivity.java_currently_moreBlock
+{"color":-10589996,"id":"10","nextBlock":12,"opCode":"bottomMenuAddItem","parameters":["bottomnavigation1","","@11","home"],"spec":"%m.bottomnavigation add item id %d title %s icon %m.resource","subStack1":-1,"subStack2":-1,"type":" ","typeName":""}
+{"color":-8224294,"id":"11","nextBlock":-1,"opCode":"getResStr","parameters":[],"spec":"nav_home","subStack1":-1,"subStack2":-1,"type":"s","typeName":""}
+{"color":-10589996,"id":"12","nextBlock":14,"opCode":"bottomMenuAddItem","parameters":["bottomnavigation1","1","@13","quran"],"spec":"%m.bottomnavigation add item id %d title %s icon %m.resource","subStack1":-1,"subStack2":-1,"type":" ","typeName":""}
+{"color":-8224294,"id":"13","nextBlock":-1,"opCode":"getResStr","parameters":[],"spec":"nav_quran","subStack1":-1,"subStack2":-1,"type":"s","typeName":""}
+{"color":-10589996,"id":"14","nextBlock":16,"opCode":"bottomMenuAddItem","parameters":["bottomnavigation1","2","@15","nur_ai"],"spec":"%m.bottomnavigation add item id %d title %s icon %m.resource","subStack1":-1,"subStack2":-1,"type":" ","typeName":""}
+{"color":-8224294,"id":"15","nextBlock":-1,"opCode":"getResStr","parameters":[],"spec":"nav_ai_chat","subStack1":-1,"subStack2":-1,"type":"s","typeName":""}
+{"color":-10589996,"id":"16","nextBlock":18,"opCode":"bottomMenuAddItem","parameters":["bottomnavigation1","3","@17","book_quran"],"spec":"%m.bottomnavigation add item id %d title %s icon %m.resource","subStack1":-1,"subStack2":-1,"type":" ","typeName":""}
+{"color":-8224294,"id":"17","nextBlock":-1,"opCode":"getResStr","parameters":[],"spec":"nav_discover","subStack1":-1,"subStack2":-1,"type":"s","typeName":""}
+{"color":-10589996,"id":"18","nextBlock":20,"opCode":"bottomMenuAddItem","parameters":["bottomnavigation1","4","@19","settings"],"spec":"%m.bottomnavigation add item id %d title %s icon %m.resource","subStack1":-1,"subStack2":-1,"type":" ","typeName":""}
+{"color":-8224294,"id":"19","nextBlock":-1,"opCode":"getResStr","parameters":[],"spec":"nav_settings","subStack1":-1,"subStack2":-1,"type":"s","typeName":""}
+{"color":-10589996,"id":"20","nextBlock":-1,"opCode":"pagerSetFragmentAdapter","parameters":["viewpager1","fa","5"],"spec":"%m.viewpager setFragmentAdapter %m.fragmentAdapter TabCount %d","subStack1":-1,"subStack2":-1,"type":" ","typeName":""}
+
+@MainActivity.java_bottomnavigation1_onNavigationItemSelected
+{"color":-12620077,"id":"10","nextBlock":-1,"opCode":"pagerSetCurrentItem","parameters":["viewpager1","@11"],"spec":"%m.viewpager setCurrentItem %d","subStack1":-1,"subStack2":-1,"type":" ","typeName":""}
+{"color":-7711273,"id":"11","nextBlock":-1,"opCode":"getArg","parameters":[],"spec":"itemId","subStack1":-1,"subStack2":-1,"type":"d","typeName":""}
+
+@SplashActivity.java_onCreate_initializeLogic
+{"color":-11571242,"id":"16","nextBlock":17,"opCode":"Bars Hide","parameters":[],"spec":"Make Navigation and status bar transparent","subStack1":-1,"subStack2":-1,"type":" ","typeName":""}
+{"color":-11571242,"id":"17","nextBlock":21,"opCode":"setWindowProperties","parameters":["@18"],"spec":"set application properties %m.design","subStack1":-1,"subStack2":-1,"type":" ","typeName":""}
+{"color":-11571242,"id":"18","nextBlock":-1,"opCode":"hide navigation bar","parameters":[],"spec":"hide navigation bar","subStack1":-1,"subStack2":-1,"type":"v","typeName":"design"}
+{"color":-11165715,"id":"21","nextBlock":10,"opCode":"fileSetData","parameters":["AiChat","chat","[{\"id\":\"a\",\"response\":\"Assalamu Alaikum! I am Nur AI, your dedicated assistant for all matters concerning the Muslim religion. How may I assist your learning or practice today?\"},{\"id\":\"u\",\"response\":\"How to perform hajj\"},{\"id\":\"a\",\"response\":\"Thinking....\"}]"],"spec":"%m.file setData key %s value %s","subStack1":-1,"subStack2":-1,"type":" ","typeName":""}
+{"color":-11165715,"id":"10","nextBlock":-1,"opCode":"timerAfter","parameters":["wait","2000"],"spec":"%m.timer after %d ms","subStack1":12,"subStack2":-1,"type":"c","typeName":""}
+{"color":-11165715,"id":"12","nextBlock":11,"opCode":"intentSetScreen","parameters":["go","MainActivity"],"spec":"%m.intent setScreen %m.activity","subStack1":-1,"subStack2":-1,"type":" ","typeName":""}
+{"color":-11165715,"id":"11","nextBlock":13,"opCode":"startActivity","parameters":["go"],"spec":"StartActivity %m.intent","subStack1":-1,"subStack2":-1,"type":" ","typeName":""}
+{"color":-11165715,"id":"13","nextBlock":-1,"opCode":"finishActivity","parameters":[],"spec":"Finish Activity","subStack1":-1,"subStack2":-1,"type":"f","typeName":""}
+
+@ChatFragmentActivity.java_onCreate_initializeLogic
+{"color":-7711273,"id":"31","nextBlock":43,"opCode":"definedFunc","parameters":[],"spec":"Ui","subStack1":-1,"subStack2":-1,"type":" ","typeName":""}
+{"color":-559806,"id":"43","nextBlock":36,"opCode":"setVarString","parameters":["data","@42"],"spec":"set %m.varStr to %s","subStack1":-1,"subStack2":-1,"type":" ","typeName":""}
+{"color":-11165715,"id":"42","nextBlock":-1,"opCode":"fileGetData","parameters":["aiChat","chat"],"spec":"%m.file getData key %s","subStack1":-1,"subStack2":-1,"type":"s","typeName":""}
+{"color":-16729254,"id":"36","nextBlock":13,"opCode":"strToListMap","parameters":["@41","chats"],"spec":"JSON %s to %m.listMap","subStack1":-1,"subStack2":-1,"type":" ","typeName":""}
+{"color":-559806,"id":"41","nextBlock":-1,"opCode":"getVar","parameters":[],"spec":"data","subStack1":-1,"subStack2":-1,"type":"s","typeName":""}
+{"color":-10589996,"id":"13","nextBlock":14,"opCode":"recyclerSetCustomViewData","parameters":["messages","chats"],"spec":"%m.recyclerview setRecyclerCustomViewData %m.listMap","subStack1":-1,"subStack2":-1,"type":" ","typeName":""}
+{"color":-10589996,"id":"14","nextBlock":-1,"opCode":"recyclerSetLayoutManager","parameters":["messages"],"spec":"%m.recyclerview setLayoutManager","subStack1":-1,"subStack2":-1,"type":" ","typeName":""}
+
+@ChatFragmentActivity.java_micBtn_onClick
+{"color":-11165715,"id":"11","nextBlock":-1,"opCode":"doToast","parameters":["Listening..."],"spec":"Toast %s","subStack1":-1,"subStack2":-1,"type":" ","typeName":""}
+
+@ChatFragmentActivity.java_Import_Import
+{"color":-16729254,"id":"10","nextBlock":-1,"opCode":"addSourceDirectly","parameters":["import com.google.gson.internal.LinkedTreeMap;"],"spec":"add source directly %s.inputOnly","subStack1":-1,"subStack2":-1,"type":" ","typeName":""}
+
+@ChatFragmentActivity.java_askAi_onResponse
+{"color":-16729254,"id":"10","nextBlock":12,"opCode":"strToMap","parameters":["@11","map"],"spec":"JSON %s to %m.varMap","subStack1":-1,"subStack2":-1,"type":" ","typeName":""}
+{"color":-7711273,"id":"11","nextBlock":-1,"opCode":"getArg","parameters":[],"spec":"response","subStack1":-1,"subStack2":-1,"type":"s","typeName":""}
+{"color":-16729254,"id":"12","nextBlock":-1,"opCode":"addSourceDirectly","parameters":["ArrayList\u003cLinkedTreeMap\u003cString, Object\u003e\u003e choices \u003d (ArrayList\u003cLinkedTreeMap\u003cString, Object\u003e\u003e) map.get(\"choices\");\n\nif (choices !\u003d null \u0026\u0026 !choices.isEmpty()) {\n    LinkedTreeMap\u003cString, Object\u003e message \u003d (LinkedTreeMap\u003cString, Object\u003e) choices.get(0).get(\"message\");\n    \n    if (message !\u003d null) {\n        String content \u003d (String) message.get(\"content\");\n        sako \u003d content;\n\n}\n}"],"spec":"add source directly %s.inputOnly","subStack1":-1,"subStack2":-1,"type":" ","typeName":""}
+
+@ChatFragmentActivity.java_speechRecognition_onSpeechResult
+{"color":-10589996,"id":"10","nextBlock":12,"opCode":"setText","parameters":["ask","@11"],"spec":"%m.textview setText %s","subStack1":-1,"subStack2":-1,"type":" ","typeName":""}
+{"color":-7711273,"id":"11","nextBlock":-1,"opCode":"getArg","parameters":[],"spec":"result","subStack1":-1,"subStack2":-1,"type":"s","typeName":""}
+{"color":-11165715,"id":"12","nextBlock":-1,"opCode":"speechToTextShutdown","parameters":["speechRecognition"],"spec":"%m.speechtotext shutdown","subStack1":-1,"subStack2":-1,"type":" ","typeName":""}
+
+@ChatFragmentActivity.java_speechRecognition_onSpeechError
+{"color":-11427604,"id":"10","nextBlock":11,"opCode":"doToast","parameters":["Something when wrong!"],"spec":"Toast %s","subStack1":-1,"subStack2":-1,"type":" ","typeName":""}
+{"color":-11427604,"id":"11","nextBlock":-1,"opCode":"speechToTextShutdown","parameters":["speechRecognition"],"spec":"%m.speechtotext shutdown","subStack1":-1,"subStack2":-1,"type":" ","typeName":""}
+
+@ChatFragmentActivity.java_Ui_moreBlock
+{"color":-12475563,"id":"11","nextBlock":12,"opCode":"setMaxLetters ;)","parameters":["ask","100"],"spec":"%m.edittext setMaxLengthOfLetters %d","subStack1":-1,"subStack2":-1,"type":" ","typeName":""}
+{"color":-16732572,"id":"12","nextBlock":13,"opCode":"setRadiusAndStrokeView","parameters":["linear3","30","2","R.color.card_stroke","R.color.my_secondary_container"],"spec":"%m.view setCornerRadius %d stroke %d strokeColor %m.color bgColor %m.color","subStack1":-1,"subStack2":-1,"type":" ","typeName":""}
+{"color":-10589996,"id":"13","nextBlock":-1,"opCode":"setCornerRadiusView","parameters":["linear2","15","R.color.surface"],"spec":"%m.view setCornerRadius %d color %m.color","subStack1":-1,"subStack2":-1,"type":" ","typeName":""}
+
+@ChatFragmentActivity.java_messages_onBindCustomView
+{"color":-10589996,"id":"44","nextBlock":43,"opCode":"setVisible","parameters":["linear8","GONE"],"spec":"%m.view setVisible %m.visible","subStack1":-1,"subStack2":-1,"type":" ","typeName":""}
+{"color":-10589996,"id":"43","nextBlock":10,"opCode":"setVisible","parameters":["relativelayout6","GONE"],"spec":"%m.view setVisible %m.visible","subStack1":-1,"subStack2":-1,"type":" ","typeName":""}
+{"color":-876233,"id":"10","nextBlock":-1,"opCode":"ifElse","parameters":["@23"],"spec":"if %b then","subStack1":32,"subStack2":-1,"type":"e","typeName":""}
+{"color":-16727661,"id":"23","nextBlock":-1,"opCode":"custom boolean","parameters":["@17","@35","a"],"spec":"%s  %s  %s","subStack1":-1,"subStack2":-1,"type":"b","typeName":""}
+{"color":-3123898,"id":"17","nextBlock":-1,"opCode":"getAtListMap","parameters":["@18","id","@19"],"spec":"get value at %d key %s of %m.listMap","subStack1":-1,"subStack2":-1,"type":"s","typeName":""}
+{"color":-7711273,"id":"18","nextBlock":-1,"opCode":"getArg","parameters":[],"spec":"position","subStack1":-1,"subStack2":-1,"type":"d","typeName":""}
+{"color":-7711273,"id":"19","nextBlock":-1,"opCode":"getArg","parameters":[],"spec":"data","subStack1":-1,"subStack2":-1,"type":"l","typeName":"List Map"}
+{"color":-16729254,"id":"35","nextBlock":-1,"opCode":"asdString","parameters":["\u003d\u003d"],"spec":"string %s.inputOnly","subStack1":-1,"subStack2":-1,"type":"s","typeName":""}
+{"color":-10589996,"id":"32","nextBlock":41,"opCode":"setVisible","parameters":["linear8","VISIBLE"],"spec":"%m.view setVisible %m.visible","subStack1":-1,"subStack2":-1,"type":" ","typeName":""}
+{"color":-10589996,"id":"41","nextBlock":24,"opCode":"setText","parameters":["tvAiMessage","@45"],"spec":"%m.textview setText %s","subStack1":-1,"subStack2":-1,"type":" ","typeName":""}
+{"color":-3123898,"id":"45","nextBlock":-1,"opCode":"getAtListMap","parameters":["@46","response","@47"],"spec":"get value at %d key %s of %m.listMap","subStack1":-1,"subStack2":-1,"type":"s","typeName":""}
+{"color":-7711273,"id":"46","nextBlock":-1,"opCode":"getArg","parameters":[],"spec":"position","subStack1":-1,"subStack2":-1,"type":"d","typeName":""}
+{"color":-7711273,"id":"47","nextBlock":-1,"opCode":"getArg","parameters":[],"spec":"data","subStack1":-1,"subStack2":-1,"type":"l","typeName":"List Map"}
+{"color":-22181,"id":"24","nextBlock":-1,"opCode":"else if","parameters":["@25"],"spec":"else if %b then","subStack1":33,"subStack2":-1,"type":"c","typeName":""}
+{"color":-16727661,"id":"25","nextBlock":-1,"opCode":"custom boolean","parameters":["@26","@34","u"],"spec":"%s  %s  %s","subStack1":-1,"subStack2":-1,"type":"b","typeName":""}
+{"color":-3123898,"id":"26","nextBlock":-1,"opCode":"getAtListMap","parameters":["@27","id","@28"],"spec":"get value at %d key %s of %m.listMap","subStack1":-1,"subStack2":-1,"type":"s","typeName":""}
+{"color":-7711273,"id":"27","nextBlock":-1,"opCode":"getArg","parameters":[],"spec":"position","subStack1":-1,"subStack2":-1,"type":"d","typeName":""}
+{"color":-7711273,"id":"28","nextBlock":-1,"opCode":"getArg","parameters":[],"spec":"data","subStack1":-1,"subStack2":-1,"type":"l","typeName":"List Map"}
+{"color":-16729254,"id":"34","nextBlock":-1,"opCode":"asdString","parameters":["\u003d\u003d"],"spec":"string %s.inputOnly","subStack1":-1,"subStack2":-1,"type":"s","typeName":""}
+{"color":-10589996,"id":"33","nextBlock":48,"opCode":"setVisible","parameters":["relativelayout6","VISIBLE"],"spec":"%m.view setVisible %m.visible","subStack1":-1,"subStack2":-1,"type":" ","typeName":""}
+{"color":-10589996,"id":"48","nextBlock":-1,"opCode":"setText","parameters":["tvUserMessage","@49"],"spec":"%m.textview setText %s","subStack1":-1,"subStack2":-1,"type":" ","typeName":""}
+{"color":-3123898,"id":"49","nextBlock":-1,"opCode":"getAtListMap","parameters":["@50","response","@51"],"spec":"get value at %d key %s of %m.listMap","subStack1":-1,"subStack2":-1,"type":"s","typeName":""}
+{"color":-7711273,"id":"50","nextBlock":-1,"opCode":"getArg","parameters":[],"spec":"position","subStack1":-1,"subStack2":-1,"type":"d","typeName":""}
+{"color":-7711273,"id":"51","nextBlock":-1,"opCode":"getArg","parameters":[],"spec":"data","subStack1":-1,"subStack2":-1,"type":"l","typeName":"List Map"}
+
+@ChatFragmentActivity.java_sendBtn_onClick
+{"color":-876233,"id":"10","nextBlock":-1,"opCode":"ifElse","parameters":["@11"],"spec":"if %b then","subStack1":13,"subStack2":14,"type":"e","typeName":""}
+{"color":-16729254,"id":"11","nextBlock":-1,"opCode":"stringEquals","parameters":["@12",""],"spec":"%s equals %s","subStack1":-1,"subStack2":-1,"type":"b","typeName":""}
+{"color":-10589996,"id":"12","nextBlock":-1,"opCode":"getText","parameters":["ask"],"spec":"%m.textview getText","subStack1":-1,"subStack2":-1,"type":"s","typeName":""}
+{"color":-11165715,"id":"13","nextBlock":-1,"opCode":"doToast","parameters":["Enter your question about Islam!"],"spec":"Toast %s","subStack1":-1,"subStack2":-1,"type":" ","typeName":""}
+{"color":-11165715,"id":"14","nextBlock":17,"opCode":"requestnetworkStartRequestNetwork","parameters":["askAi","GET","@15",""],"spec":"%m.requestnetwork start network request to method %m.method to url %s with tag %s","subStack1":-1,"subStack2":-1,"type":" ","typeName":""}
+{"color":-16729254,"id":"15","nextBlock":-1,"opCode":"stringJoin","parameters":["https://bf31jhdm60.execute-api.eu-west-2.amazonaws.com/dev/ask/","@16"],"spec":"join %s and %s","subStack1":-1,"subStack2":-1,"type":"s","typeName":""}
+{"color":-10589996,"id":"16","nextBlock":-1,"opCode":"getText","parameters":["ask"],"spec":"%m.textview getText","subStack1":-1,"subStack2":-1,"type":"s","typeName":""}
+{"color":-10589996,"id":"17","nextBlock":18,"opCode":"setText","parameters":["ask",""],"spec":"%m.textview setText %s","subStack1":-1,"subStack2":-1,"type":" ","typeName":""}
+{"color":-11165715,"id":"18","nextBlock":-1,"opCode":"doToast","parameters":["Please wait!"],"spec":"Toast %s","subStack1":-1,"subStack2":-1,"type":" ","typeName":""}
+
+@HomeFragmentActivity.java_rippleRoundStroke_moreBlock
+{"color":-16729254,"id":"16","nextBlock":-1,"opCode":"addSourceDirectly","parameters":["android.graphics.drawable.GradientDrawable GG \u003d new android.graphics.drawable.GradientDrawable();\nGG.setColor(Color.parseColor(_focus));\nGG.setCornerRadius((float)_round);\nGG.setStroke((int) _stroke,\nColor.parseColor(\"#\" + _strokeclr.replace(\"#\", \"\")));\nandroid.graphics.drawable.RippleDrawable RE \u003d new android.graphics.drawable.RippleDrawable(new android.content.res.ColorStateList(new int[][]{new int[]{}}, new int[]{ Color.parseColor(\"#FF757575\")}), GG, null);\n_view.setBackground(RE);"],"spec":"add source directly %s.inputOnly","subStack1":-1,"subStack2":-1,"type":" ","typeName":""}
+
+@HomeFragmentActivity.java_onCreate_initializeLogic
+{"color":-7711273,"id":"31","nextBlock":-1,"opCode":"definedFunc","parameters":[],"spec":"Ui","subStack1":-1,"subStack2":-1,"type":" ","typeName":""}
+
+@HomeFragmentActivity.java_viewpagerSlider1_onBindCustomView
+{"color":-10589996,"id":"10","nextBlock":23,"opCode":"setImageUrl","parameters":["imageview1","@11"],"spec":"%m.imageview set image from url %s","subStack1":-1,"subStack2":-1,"type":" ","typeName":""}
+{"color":-3123898,"id":"11","nextBlock":-1,"opCode":"getAtListMap","parameters":["@12","img","@13"],"spec":"get value at %d key %s of %m.listMap","subStack1":-1,"subStack2":-1,"type":"s","typeName":""}
+{"color":-7711273,"id":"12","nextBlock":-1,"opCode":"getArg","parameters":[],"spec":"position","subStack1":-1,"subStack2":-1,"type":"d","typeName":""}
+{"color":-7711273,"id":"13","nextBlock":-1,"opCode":"getArg","parameters":[],"spec":"data","subStack1":-1,"subStack2":-1,"type":"l","typeName":"List Map"}
+{"color":-11192139,"id":"23","nextBlock":19,"opCode":"Card View Radius","parameters":["cardview1","25"],"spec":"%m.cardview Set Radius %d","subStack1":-1,"subStack2":-1,"type":" ","typeName":""}
+{"color":-10589996,"id":"19","nextBlock":22,"opCode":"setCardElevation","parameters":["cardview1","5"],"spec":"%m.cardview setCardElevation %d","subStack1":-1,"subStack2":-1,"type":" ","typeName":""}
+{"color":-10589996,"id":"22","nextBlock":-1,"opCode":"setStrokeView","parameters":["cardview1","1","R.color.card_stroke","R.color.backgroundColor"],"spec":"%m.view setStroke %d strokeColor %m.color bgColor %m.color","subStack1":-1,"subStack2":-1,"type":" ","typeName":""}
+
+@HomeFragmentActivity.java_recyclerview1_onBindCustomView
+{"color":-10589996,"id":"10","nextBlock":11,"opCode":"setRecyclerViewLayoutParams","parameters":["WRAP_CONTENT","MATCH_PARENT"],"spec":"set RecyclerViewLayoutParams width %m.LayoutParam height %m.LayoutParam","subStack1":-1,"subStack2":-1,"type":" ","typeName":""}
+{"color":-7711273,"id":"11","nextBlock":12,"opCode":"definedFunc","parameters":["linear1","#FFFFFF","#FFFFFF","555","0","#FFFFFF"],"spec":"rippleRoundStroke %m.view.view onFocus %s.focus onPressed %s.pressed setRound %d.round setStroke %d.stroke setStrokeColor %s.strokeclr","subStack1":-1,"subStack2":-1,"type":" ","typeName":""}
+{"color":-876233,"id":"12","nextBlock":-1,"opCode":"ifElse","parameters":["@13"],"spec":"if %b then","subStack1":16,"subStack2":18,"type":"e","typeName":""}
+{"color":-16729254,"id":"13","nextBlock":-1,"opCode":"\u003d","parameters":["@14","@15"],"spec":"%d \u003d %d","subStack1":-1,"subStack2":-1,"type":"b","typeName":""}
+{"color":-559806,"id":"14","nextBlock":-1,"opCode":"getVar","parameters":[],"spec":"position","subStack1":-1,"subStack2":-1,"type":"d","typeName":""}
+{"color":-7711273,"id":"15","nextBlock":-1,"opCode":"getArg","parameters":[],"spec":"position","subStack1":-1,"subStack2":-1,"type":"d","typeName":""}
+{"color":-7711273,"id":"16","nextBlock":17,"opCode":"definedFunc","parameters":["linear1","#FFFFFF","#FFFFFF","555","0","#FFFFFF"],"spec":"rippleRoundStroke %m.view.view onFocus %s.focus onPressed %s.pressed setRound %d.round setStroke %d.stroke setStrokeColor %s.strokeclr","subStack1":-1,"subStack2":-1,"type":" ","typeName":""}
+{"color":-10589996,"id":"17","nextBlock":-1,"opCode":"setAlpha","parameters":["linear1","1.0"],"spec":"%m.view setAlpha %d","subStack1":-1,"subStack2":-1,"type":" ","typeName":""}
+{"color":-7711273,"id":"18","nextBlock":19,"opCode":"definedFunc","parameters":["linear1","#FFFFFF","#FFFFFF","555","0","#FFFFFF"],"spec":"rippleRoundStroke %m.view.view onFocus %s.focus onPressed %s.pressed setRound %d.round setStroke %d.stroke setStrokeColor %s.strokeclr","subStack1":-1,"subStack2":-1,"type":" ","typeName":""}
+{"color":-10589996,"id":"19","nextBlock":-1,"opCode":"setAlpha","parameters":["linear1","0.5"],"spec":"%m.view setAlpha %d","subStack1":-1,"subStack2":-1,"type":" ","typeName":""}
+
+@HomeFragmentActivity.java_Ui_moreBlock
+{"color":-3123898,"id":"11","nextBlock":12,"opCode":"addListMap","parameters":["img","https://encrypted-tbn0.gstatic.com/images?q\u003dtbn:ANd9GcS376GTjTmKi6D30_Z50SMg4aNj5RayrIS8dw\u0026usqp\u003dCAU","listmap"],"spec":"add key %s value %s to %m.listMap","subStack1":-1,"subStack2":-1,"type":" ","typeName":""}
+{"color":-3123898,"id":"12","nextBlock":13,"opCode":"addListMap","parameters":["img","https://encrypted-tbn0.gstatic.com/images?q\u003dtbn:ANd9GcTDEt5q0ycD-mr_kKnRyPULbT1yOwcue5HdNQ\u0026usqp\u003dCAU","listmap"],"spec":"add key %s value %s to %m.listMap","subStack1":-1,"subStack2":-1,"type":" ","typeName":""}
+{"color":-3123898,"id":"13","nextBlock":14,"opCode":"addListMap","parameters":["img","https://encrypted-tbn0.gstatic.com/images?q\u003dtbn:ANd9GcRghf-coFyo1NsiLp4n6JyYb2VN7XP6vgcahw\u0026usqp\u003dCAU","listmap"],"spec":"add key %s value %s to %m.listMap","subStack1":-1,"subStack2":-1,"type":" ","typeName":""}
+{"color":-3123898,"id":"14","nextBlock":15,"opCode":"addListMap","parameters":["img","https://encrypted-tbn0.gstatic.com/images?q\u003dtbn:ANd9GcRITxaEBapgd9m4HZX7mDyyMXdxvewgrOIOOw\u0026usqp\u003dCAU","listmap"],"spec":"add key %s value %s to %m.listMap","subStack1":-1,"subStack2":-1,"type":" ","typeName":""}
+{"color":-16729254,"id":"15","nextBlock":16,"opCode":"addSourceDirectly","parameters":["final float scaleFactor \u003d 0.90f;\nviewpagerSlider1.setPageMargin(-30);\nviewpagerSlider1.setOffscreenPageLimit(2);\nviewpagerSlider1.setPageTransformer(false, new ViewPager.PageTransformer() {\n    @Override\n    public void transformPage(@NonNull View page1, float position) {\n        page1.setScaleY((1 - Math.abs(position) * (1 - scaleFactor)));\n        page1.setScaleX(scaleFactor + Math.abs(position) * (1 - scaleFactor));\n    }\n});"],"spec":"add source directly %s.inputOnly","subStack1":-1,"subStack2":-1,"type":" ","typeName":""}
+{"color":-10589996,"id":"16","nextBlock":17,"opCode":"pagerSetCustomViewData","parameters":["viewpagerSlider1","listmap"],"spec":"%m.viewpager setPagerCustomViewData %m.listMap","subStack1":-1,"subStack2":-1,"type":" ","typeName":""}
+{"color":-10589996,"id":"17","nextBlock":18,"opCode":"recyclerSetCustomViewData","parameters":["recyclerview1","listmap"],"spec":"%m.recyclerview setRecyclerCustomViewData %m.listMap","subStack1":-1,"subStack2":-1,"type":" ","typeName":""}
+{"color":-10589996,"id":"18","nextBlock":19,"opCode":"recyclerSetLayoutManagerHorizontal","parameters":["recyclerview1"],"spec":"%m.recyclerview set Horizontal LayoutManager","subStack1":-1,"subStack2":-1,"type":" ","typeName":""}
+{"color":-10589996,"id":"19","nextBlock":21,"opCode":"recyclerSetHasFixedSize","parameters":["recyclerview1","@20"],"spec":"%m.recyclerview setHasFixedSize %b","subStack1":-1,"subStack2":-1,"type":" ","typeName":""}
+{"color":-16729254,"id":"20","nextBlock":-1,"opCode":"true","parameters":[],"spec":"true","subStack1":-1,"subStack2":-1,"type":"b","typeName":""}
+{"color":-559806,"id":"21","nextBlock":22,"opCode":"setVarInt","parameters":["position","0"],"spec":"set %m.varInt to %d","subStack1":-1,"subStack2":-1,"type":" ","typeName":""}
+{"color":-559806,"id":"22","nextBlock":23,"opCode":"setVarInt","parameters":["num","0"],"spec":"set %m.varInt to %d","subStack1":-1,"subStack2":-1,"type":" ","typeName":""}
+{"color":-11165715,"id":"23","nextBlock":41,"opCode":"timerEvery","parameters":["seven","0","1500"],"spec":"%m.timer after %d ms for every %d ms","subStack1":24,"subStack2":-1,"type":"c","typeName":""}
+{"color":-10589996,"id":"24","nextBlock":26,"opCode":"pagerSetCurrentItem","parameters":["viewpagerSlider1","@25"],"spec":"%m.viewpager setCurrentItem %d","subStack1":-1,"subStack2":-1,"type":" ","typeName":""}
+{"color":-559806,"id":"25","nextBlock":-1,"opCode":"getVar","parameters":[],"spec":"num","subStack1":-1,"subStack2":-1,"type":"d","typeName":""}
+{"color":-559806,"id":"26","nextBlock":27,"opCode":"increaseInt","parameters":["num"],"spec":"%m.varInt increase 1","subStack1":-1,"subStack2":-1,"type":" ","typeName":""}
+{"color":-876233,"id":"27","nextBlock":-1,"opCode":"if","parameters":["@28"],"spec":"if %b then","subStack1":31,"subStack2":-1,"type":"c","typeName":""}
+{"color":-16729254,"id":"28","nextBlock":-1,"opCode":"\u003d","parameters":["@29","@30"],"spec":"%d \u003d %d","subStack1":-1,"subStack2":-1,"type":"b","typeName":""}
+{"color":-559806,"id":"29","nextBlock":-1,"opCode":"getVar","parameters":[],"spec":"num","subStack1":-1,"subStack2":-1,"type":"d","typeName":""}
+{"color":-3123898,"id":"30","nextBlock":-1,"opCode":"lengthList","parameters":["listmap"],"spec":"length of %m.list","subStack1":-1,"subStack2":-1,"type":"d","typeName":""}
+{"color":-559806,"id":"31","nextBlock":-1,"opCode":"setVarInt","parameters":["num","0"],"spec":"set %m.varInt to %d","subStack1":-1,"subStack2":-1,"type":" ","typeName":""}
+{"color":-1829227,"id":"41","nextBlock":-1,"opCode":"corr","parameters":["linear3","R.color.surface","R.color.surface","25","25","","","0","0xFF000000","","@42"],"spec":" %m.view  Color :[ %m.color \u0026 %m.color ] Radius : [ ↖ %d ↗ %d ↙ %d ↘ %d ] Stork : [ Size %d  Color %m.color ] Shadow %d  Orientation %m.gradient","subStack1":-1,"subStack2":-1,"type":" ","typeName":""}
+{"color":-1829227,"id":"42","nextBlock":-1,"opCode":"hrh","parameters":[],"spec":"Top to Bottom","subStack1":-1,"subStack2":-1,"type":"v","typeName":"gradient"}
+
+@HomeFragmentActivity.java_onPause_onPause
+{"color":-11165715,"id":"10","nextBlock":-1,"opCode":"timerCancel","parameters":["seven"],"spec":"%m.timer cancel","subStack1":-1,"subStack2":-1,"type":" ","typeName":""}
+
+@SettingsBottomdialogFragmentActivity.java_onCreate_initializeLogic
+{"color":-7711273,"id":"10","nextBlock":11,"opCode":"definedFunc","parameters":[],"spec":"Ui","subStack1":-1,"subStack2":-1,"type":" ","typeName":""}
+{"color":-16731791,"id":"11","nextBlock":-1,"opCode":"hdhe fd","parameters":[],"spec":"addBottomSheetCallback onStateChanged (int newState)","subStack1":14,"subStack2":23,"type":"e","typeName":""}
+{"color":-876233,"id":"14","nextBlock":-1,"opCode":"switchStr","parameters":["@24"],"spec":"switch %s","subStack1":15,"subStack2":-1,"type":"c","typeName":""}
+{"color":-16739175,"id":"24","nextBlock":-1,"opCode":"mid6ime6 jlfil_copy44","parameters":[],"spec":"newState","subStack1":-1,"subStack2":-1,"type":"s","typeName":""}
+{"color":-876233,"id":"15","nextBlock":16,"opCode":"caseStr","parameters":["@19"],"spec":"case %s","subStack1":-1,"subStack2":-1,"type":"c","typeName":""}
+{"color":-16731791,"id":"19","nextBlock":-1,"opCode":"mid6ime6 jlfil_copy39","parameters":[],"spec":"STATE_EXPANDED","subStack1":-1,"subStack2":-1,"type":"s","typeName":""}
+{"color":-876233,"id":"16","nextBlock":17,"opCode":"caseStr","parameters":["@20"],"spec":"case %s","subStack1":-1,"subStack2":-1,"type":"c","typeName":""}
+{"color":-10237846,"id":"20","nextBlock":-1,"opCode":"mid6ime6 jlfil_copy69","parameters":[],"spec":"STATE_COLLAPSED","subStack1":-1,"subStack2":-1,"type":"s","typeName":""}
+{"color":-876233,"id":"17","nextBlock":-1,"opCode":"defaultSwitch","parameters":[],"spec":"default","subStack1":-1,"subStack2":-1,"type":"c","typeName":""}
+{"color":-16729254,"id":"23","nextBlock":-1,"opCode":"addSourceDirectly","parameters":["// Change the alpha of a view based on the slide\n                // slideOffset goes from 0.0 (collapsed) to 1.0 (expanded)\n                // and 0.0 to -1.0 when hiding.\n                if (getView() !\u003d null) {\n                    getView().setAlpha(Math.max(0f, 1f + slideOffset));\n}"],"spec":"add source directly %s.inputOnly","subStack1":-1,"subStack2":-1,"type":" ","typeName":""}
+
+@SettingsBottomdialogFragmentActivity.java_Ui_moreBlock
+{"color":-1829227,"id":"10","nextBlock":12,"opCode":"corr","parameters":["linear1","R.color.backgroundColor","R.color.backgroundColor","25","25","","","","R.color.colorPrimary","","@11"],"spec":" %m.view  Color :[ %m.color \u0026 %m.color ] Radius : [ ↖ %d ↗ %d ↙ %d ↘ %d ] Stork : [ Size %d  Color %m.color ] Shadow %d  Orientation %m.gradient","subStack1":-1,"subStack2":-1,"type":" ","typeName":""}
+{"color":-1829227,"id":"11","nextBlock":-1,"opCode":"hrh","parameters":[],"spec":"Top to Bottom","subStack1":-1,"subStack2":-1,"type":"v","typeName":"gradient"}
+{"color":-12435108,"id":"12","nextBlock":14,"opCode":"CommandBlockJava","parameters":["int[] binding.","","","","find-replace"],"spec":"Java Command Block: reference %s distance %d frontend %d backend %d command %m.Command","subStack1":13,"subStack2":-1,"type":"c","typeName":""}
+{"color":-16729254,"id":"13","nextBlock":-1,"opCode":"addSourceDirectly","parameters":["int[] "],"spec":"add source directly %s.inputOnly","subStack1":-1,"subStack2":-1,"type":" ","typeName":""}
+{"color":-12435108,"id":"14","nextBlock":16,"opCode":"CommandBlockJava","parameters":["android.graphics.drawable.GradientDrawable binding.","","","","find-replace"],"spec":"Java Command Block: reference %s distance %d frontend %d backend %d command %m.Command","subStack1":15,"subStack2":-1,"type":"c","typeName":""}
+{"color":-16729254,"id":"15","nextBlock":-1,"opCode":"addSourceDirectly","parameters":["android.graphics.drawable.GradientDrawable "],"spec":"add source directly %s.inputOnly","subStack1":-1,"subStack2":-1,"type":" ","typeName":""}
+{"color":-12435108,"id":"16","nextBlock":18,"opCode":"CommandBlockJava","parameters":["binding.linear1_qwer","","","","find-replace"],"spec":"Java Command Block: reference %s distance %d frontend %d backend %d command %m.Command","subStack1":17,"subStack2":-1,"type":"c","typeName":""}
+{"color":-16729254,"id":"17","nextBlock":-1,"opCode":"addSourceDirectly","parameters":["linear1_qwer "],"spec":"add source directly %s.inputOnly","subStack1":-1,"subStack2":-1,"type":" ","typeName":""}
+{"color":-12435108,"id":"18","nextBlock":20,"opCode":"CommandBlockJava","parameters":["binding.linear1_qaz","","","","find-replace"],"spec":"Java Command Block: reference %s distance %d frontend %d backend %d command %m.Command","subStack1":19,"subStack2":-1,"type":"c","typeName":""}
+{"color":-16729254,"id":"19","nextBlock":-1,"opCode":"addSourceDirectly","parameters":["linear1_qaz"],"spec":"add source directly %s.inputOnly","subStack1":-1,"subStack2":-1,"type":" ","typeName":""}
+{"color":-1829227,"id":"20","nextBlock":22,"opCode":"corr","parameters":["linear2","0xFF616161","0xFF616161","5","5","5","5","","Color.TRANSPARENT","","@21"],"spec":" %m.view  Color :[ %m.color \u0026 %m.color ] Radius : [ ↖ %d ↗ %d ↙ %d ↘ %d ] Stork : [ Size %d  Color %m.color ] Shadow %d  Orientation %m.gradient","subStack1":-1,"subStack2":-1,"type":" ","typeName":""}
+{"color":-1829227,"id":"21","nextBlock":-1,"opCode":"hrh","parameters":[],"spec":"Top to Bottom","subStack1":-1,"subStack2":-1,"type":"v","typeName":"gradient"}
+{"color":-12435108,"id":"22","nextBlock":24,"opCode":"CommandBlockJava","parameters":["int[] binding.","","","","find-replace"],"spec":"Java Command Block: reference %s distance %d frontend %d backend %d command %m.Command","subStack1":23,"subStack2":-1,"type":"c","typeName":""}
+{"color":-16729254,"id":"23","nextBlock":-1,"opCode":"addSourceDirectly","parameters":["int[] "],"spec":"add source directly %s.inputOnly","subStack1":-1,"subStack2":-1,"type":" ","typeName":""}
+{"color":-12435108,"id":"24","nextBlock":26,"opCode":"CommandBlockJava","parameters":["android.graphics.drawable.GradientDrawable binding.","","","","find-replace"],"spec":"Java Command Block: reference %s distance %d frontend %d backend %d command %m.Command","subStack1":25,"subStack2":-1,"type":"c","typeName":""}
+{"color":-16729254,"id":"25","nextBlock":-1,"opCode":"addSourceDirectly","parameters":["android.graphics.drawable.GradientDrawable "],"spec":"add source directly %s.inputOnly","subStack1":-1,"subStack2":-1,"type":" ","typeName":""}
+{"color":-12435108,"id":"26","nextBlock":28,"opCode":"CommandBlockJava","parameters":["binding.linear2_qwer","","","","find-replace"],"spec":"Java Command Block: reference %s distance %d frontend %d backend %d command %m.Command","subStack1":27,"subStack2":-1,"type":"c","typeName":""}
+{"color":-16729254,"id":"27","nextBlock":-1,"opCode":"addSourceDirectly","parameters":["linear2_qwer "],"spec":"add source directly %s.inputOnly","subStack1":-1,"subStack2":-1,"type":" ","typeName":""}
+{"color":-12435108,"id":"28","nextBlock":-1,"opCode":"CommandBlockJava","parameters":["binding.linear2_qaz","","","","find-replace"],"spec":"Java Command Block: reference %s distance %d frontend %d backend %d command %m.Command","subStack1":29,"subStack2":-1,"type":"c","typeName":""}
+{"color":-16729254,"id":"29","nextBlock":-1,"opCode":"addSourceDirectly","parameters":["linear2_qaz"],"spec":"add source directly %s.inputOnly","subStack1":-1,"subStack2":-1,"type":" ","typeName":""}
+
+@DiscoverFragmentActivity.java_onCreate_initializeLogic
+{"color":-7711273,"id":"10","nextBlock":-1,"opCode":"definedFunc","parameters":[],"spec":"Ui","subStack1":-1,"subStack2":-1,"type":" ","typeName":""}
+
+@DiscoverFragmentActivity.java_Ui_moreBlock
+{"color":-876233,"id":"10","nextBlock":12,"opCode":"repeat","parameters":["20"],"spec":"repeat %d","subStack1":11,"subStack2":-1,"type":"c","typeName":""}
+{"color":-3123898,"id":"11","nextBlock":-1,"opCode":"addListMap","parameters":["q","","list"],"spec":"add key %s value %s to %m.listMap","subStack1":-1,"subStack2":-1,"type":" ","typeName":""}
+{"color":-10589996,"id":"12","nextBlock":13,"opCode":"recyclerSetCustomViewData","parameters":["rvDiscoverGrid","list"],"spec":"%m.recyclerview setRecyclerCustomViewData %m.listMap","subStack1":-1,"subStack2":-1,"type":" ","typeName":""}
+{"color":-11841868,"id":"13","nextBlock":-1,"opCode":"gridview layout","parameters":["rvDiscoverGrid","2"],"spec":"%m.recyclerview set GridLayoutManager with column %d ","subStack1":-1,"subStack2":-1,"type":" ","typeName":""}
+
+@QuranFragmentActivity.java_onCreate_initializeLogic
+{"color":-7711273,"id":"10","nextBlock":-1,"opCode":"definedFunc","parameters":[],"spec":"Ui","subStack1":-1,"subStack2":-1,"type":" ","typeName":""}
+
+@QuranFragmentActivity.java_button2_onClick
+{"color":-10589996,"id":"10","nextBlock":-1,"opCode":"pagerSetCurrentItem","parameters":["viewPager21","1"],"spec":"%m.viewpager setCurrentItem %d","subStack1":-1,"subStack2":-1,"type":" ","typeName":""}
+
+@QuranFragmentActivity.java_Import_Import
+{"color":-16532,"id":"11","nextBlock":-1,"opCode":"customImport","parameters":["com.google.android.material.button.MaterialButtonToggleGroup"],"spec":"import %s.import","subStack1":-1,"subStack2":-1,"type":" ","typeName":""}
+
+@QuranFragmentActivity.java_kk_MoreBlockMaker
+{"color":-14834260,"id":"10","nextBlock":-1,"opCode":"viewpager2adapter","parameters":["Myrr","3"],"spec":"set adapter name %s.inputOnly ItemCount %d ","subStack1":11,"subStack2":-1,"type":"c","typeName":""}
+{"color":-16532,"id":"11","nextBlock":-1,"opCode":"kgjf","parameters":["@14"],"spec":"switch %d ","subStack1":12,"subStack2":-1,"type":"c","typeName":""}
+{"color":-7917364,"id":"14","nextBlock":-1,"opCode":"gdo","parameters":[],"spec":"_position","subStack1":-1,"subStack2":-1,"type":"d","typeName":""}
+{"color":-16532,"id":"12","nextBlock":15,"opCode":"kgjf_copy69","parameters":[""],"spec":"case %d :","subStack1":13,"subStack2":-1,"type":"c","typeName":""}
+{"color":-14834260,"id":"13","nextBlock":-1,"opCode":"ye","parameters":["QuranIndexFragmentActivity"],"spec":"return %m.activity ","subStack1":-1,"subStack2":-1,"type":" ","typeName":""}
+{"color":-16532,"id":"15","nextBlock":17,"opCode":"kgjf_copy69","parameters":["1"],"spec":"case %d :","subStack1":16,"subStack2":-1,"type":"c","typeName":""}
+{"color":-14834260,"id":"16","nextBlock":-1,"opCode":"ye","parameters":["JuzIndexFragmentActivity"],"spec":"return %m.activity ","subStack1":-1,"subStack2":-1,"type":" ","typeName":""}
+{"color":-16532,"id":"17","nextBlock":21,"opCode":"kgjf_copy69","parameters":["2"],"spec":"case %d :","subStack1":18,"subStack2":-1,"type":"c","typeName":""}
+{"color":-14834260,"id":"18","nextBlock":-1,"opCode":"ye","parameters":["BookmarksIndexFragmentActivity"],"spec":"return %m.activity ","subStack1":-1,"subStack2":-1,"type":" ","typeName":""}
+{"color":-16532,"id":"21","nextBlock":-1,"opCode":"kgjf_copy83","parameters":[],"spec":"default:","subStack1":20,"subStack2":-1,"type":"c","typeName":""}
+{"color":-14834260,"id":"20","nextBlock":-1,"opCode":"ye","parameters":["QuranIndexFragmentActivity"],"spec":"return %m.activity ","subStack1":-1,"subStack2":-1,"type":" ","typeName":""}
+
+@QuranFragmentActivity.java_imageview2_onClick
+{"color":-16731791,"id":"10","nextBlock":-1,"opCode":"Open fragment no bundle","parameters":["SettingsBottomdialogFragmentActivity"],"spec":"launch %m.activity","subStack1":-1,"subStack2":-1,"type":" ","typeName":""}
+
+@QuranFragmentActivity.java_button3_onClick
+{"color":-10589996,"id":"10","nextBlock":-1,"opCode":"pagerSetCurrentItem","parameters":["viewPager21","2"],"spec":"%m.viewpager setCurrentItem %d","subStack1":-1,"subStack2":-1,"type":" ","typeName":""}
+
+@QuranFragmentActivity.java_Ui_moreBlock
+{"color":-14834260,"id":"76","nextBlock":53,"opCode":"rjb_copy11","parameters":["Myrr","viewPager21"],"spec":"Adapter%s.inputOnly on viewpager%m.viewpager setAdapter (in Fragment)","subStack1":-1,"subStack2":-1,"type":" ","typeName":""}
+{"color":-14834260,"id":"53","nextBlock":49,"opCode":"hee_copy21","parameters":["viewPager21","@77"],"spec":"%m.viewpager setOrientation %s ","subStack1":-1,"subStack2":-1,"type":" ","typeName":""}
+{"color":-11841868,"id":"77","nextBlock":-1,"opCode":"hee_copy77","parameters":[],"spec":"ORIENTATION_HORIZONTAL","subStack1":-1,"subStack2":-1,"type":"s","typeName":""}
+{"color":-14834260,"id":"49","nextBlock":78,"opCode":"hee","parameters":["viewPager21"],"spec":"%m.viewpager onPageSelected use (_position)","subStack1":68,"subStack2":-1,"type":"c","typeName":""}
+{"color":-876233,"id":"68","nextBlock":70,"opCode":"if","parameters":["@69"],"spec":"if %b then","subStack1":25,"subStack2":-1,"type":"c","typeName":""}
+{"color":-16729254,"id":"69","nextBlock":-1,"opCode":"\u003d","parameters":["@52",""],"spec":"%d \u003d %d","subStack1":-1,"subStack2":-1,"type":"b","typeName":""}
+{"color":-7917364,"id":"52","nextBlock":-1,"opCode":"gdo","parameters":[],"spec":"_position","subStack1":-1,"subStack2":-1,"type":"d","typeName":""}
+{"color":-10082121,"id":"25","nextBlock":26,"opCode":"setBackgroundTintList ...","parameters":["button1","R.color.colorAccent"],"spec":"%m.view setBackgroundTintList %m.color","subStack1":-1,"subStack2":-1,"type":" ","typeName":""}
+{"color":-10082121,"id":"26","nextBlock":27,"opCode":"setTextColor......","parameters":["button1","R.color.surface"],"spec":"%m.view setTextColor %m.color","subStack1":-1,"subStack2":-1,"type":" ","typeName":""}
+{"color":-10082121,"id":"27","nextBlock":28,"opCode":"setBackgroundTintList ...","parameters":["button2","Color.TRANSPARENT"],"spec":"%m.view setBackgroundTintList %m.color","subStack1":-1,"subStack2":-1,"type":" ","typeName":""}
+{"color":-10082121,"id":"28","nextBlock":29,"opCode":"setTextColor......","parameters":["button2","R.color.text_primary"],"spec":"%m.view setTextColor %m.color","subStack1":-1,"subStack2":-1,"type":" ","typeName":""}
+{"color":-10082121,"id":"29","nextBlock":30,"opCode":"setBackgroundTintList ...","parameters":["button3","Color.TRANSPARENT"],"spec":"%m.view setBackgroundTintList %m.color","subStack1":-1,"subStack2":-1,"type":" ","typeName":""}
+{"color":-10082121,"id":"30","nextBlock":-1,"opCode":"setTextColor......","parameters":["button3","R.color.text_primary"],"spec":"%m.view setTextColor %m.color","subStack1":-1,"subStack2":-1,"type":" ","typeName":""}
+{"color":-876233,"id":"70","nextBlock":73,"opCode":"if","parameters":["@71"],"spec":"if %b then","subStack1":34,"subStack2":-1,"type":"c","typeName":""}
+{"color":-16729254,"id":"71","nextBlock":-1,"opCode":"\u003d","parameters":["@72","1"],"spec":"%d \u003d %d","subStack1":-1,"subStack2":-1,"type":"b","typeName":""}
+{"color":-7917364,"id":"72","nextBlock":-1,"opCode":"gdo","parameters":[],"spec":"_position","subStack1":-1,"subStack2":-1,"type":"d","typeName":""}
+{"color":-10082121,"id":"34","nextBlock":35,"opCode":"setBackgroundTintList ...","parameters":["button2","R.color.colorAccent"],"spec":"%m.view setBackgroundTintList %m.color","subStack1":-1,"subStack2":-1,"type":" ","typeName":""}
+{"color":-10082121,"id":"35","nextBlock":36,"opCode":"setTextColor......","parameters":["button2","R.color.surface"],"spec":"%m.view setTextColor %m.color","subStack1":-1,"subStack2":-1,"type":" ","typeName":""}
+{"color":-10082121,"id":"36","nextBlock":37,"opCode":"setBackgroundTintList ...","parameters":["button3","Color.TRANSPARENT"],"spec":"%m.view setBackgroundTintList %m.color","subStack1":-1,"subStack2":-1,"type":" ","typeName":""}
+{"color":-10082121,"id":"37","nextBlock":38,"opCode":"setTextColor......","parameters":["button3","R.color.text_primary"],"spec":"%m.view setTextColor %m.color","subStack1":-1,"subStack2":-1,"type":" ","typeName":""}
+{"color":-10082121,"id":"38","nextBlock":39,"opCode":"setBackgroundTintList ...","parameters":["button1","Color.TRANSPARENT"],"spec":"%m.view setBackgroundTintList %m.color","subStack1":-1,"subStack2":-1,"type":" ","typeName":""}
+{"color":-10082121,"id":"39","nextBlock":-1,"opCode":"setTextColor......","parameters":["button1","R.color.text_primary"],"spec":"%m.view setTextColor %m.color","subStack1":-1,"subStack2":-1,"type":" ","typeName":""}
+{"color":-876233,"id":"73","nextBlock":-1,"opCode":"if","parameters":["@74"],"spec":"if %b then","subStack1":43,"subStack2":-1,"type":"c","typeName":""}
+{"color":-16729254,"id":"74","nextBlock":-1,"opCode":"\u003d","parameters":["@75","2"],"spec":"%d \u003d %d","subStack1":-1,"subStack2":-1,"type":"b","typeName":""}
+{"color":-7917364,"id":"75","nextBlock":-1,"opCode":"gdo","parameters":[],"spec":"_position","subStack1":-1,"subStack2":-1,"type":"d","typeName":""}
+{"color":-10082121,"id":"43","nextBlock":44,"opCode":"setBackgroundTintList ...","parameters":["button3","R.color.colorAccent"],"spec":"%m.view setBackgroundTintList %m.color","subStack1":-1,"subStack2":-1,"type":" ","typeName":""}
+{"color":-10082121,"id":"44","nextBlock":45,"opCode":"setTextColor......","parameters":["button3","R.color.surface"],"spec":"%m.view setTextColor %m.color","subStack1":-1,"subStack2":-1,"type":" ","typeName":""}
+{"color":-10082121,"id":"45","nextBlock":46,"opCode":"setBackgroundTintList ...","parameters":["button1","Color.TRANSPARENT"],"spec":"%m.view setBackgroundTintList %m.color","subStack1":-1,"subStack2":-1,"type":" ","typeName":""}
+{"color":-10082121,"id":"46","nextBlock":47,"opCode":"setTextColor......","parameters":["button1","R.color.text_primary"],"spec":"%m.view setTextColor %m.color","subStack1":-1,"subStack2":-1,"type":" ","typeName":""}
+{"color":-10082121,"id":"47","nextBlock":48,"opCode":"setBackgroundTintList ...","parameters":["button2","Color.TRANSPARENT"],"spec":"%m.view setBackgroundTintList %m.color","subStack1":-1,"subStack2":-1,"type":" ","typeName":""}
+{"color":-10082121,"id":"48","nextBlock":-1,"opCode":"setTextColor......","parameters":["button2","R.color.text_primary"],"spec":"%m.view setTextColor %m.color","subStack1":-1,"subStack2":-1,"type":" ","typeName":""}
+{"color":-1829227,"id":"78","nextBlock":-1,"opCode":"corr","parameters":["linear3","R.color.surface","R.color.surface","25","25","","","","0xFF000000","","@79"],"spec":" %m.view  Color :[ %m.color \u0026 %m.color ] Radius : [ ↖ %d ↗ %d ↙ %d ↘ %d ] Stork : [ Size %d  Color %m.color ] Shadow %d  Orientation %m.gradient","subStack1":-1,"subStack2":-1,"type":" ","typeName":""}
+{"color":-1829227,"id":"79","nextBlock":-1,"opCode":"hrh","parameters":[],"spec":"Top to Bottom","subStack1":-1,"subStack2":-1,"type":"v","typeName":"gradient"}
+
+@QuranFragmentActivity.java_button1_onClick
+{"color":-10589996,"id":"10","nextBlock":-1,"opCode":"pagerSetCurrentItem","parameters":["viewPager21",""],"spec":"%m.viewpager setCurrentItem %d","subStack1":-1,"subStack2":-1,"type":" ","typeName":""}
+
+@QuranIndexFragmentActivity.java_onCreate_initializeLogic
+{"color":-16729254,"id":"10","nextBlock":11,"opCode":"addSourceDirectly","parameters":["try {\n  java.io.InputStream is \u003d getActivity().getAssets().open(\"quran_en.json\");\n           int size \u003d is.available();\n           byte[] buffer \u003d new byte[size];\n           is.read(buffer);\n           is.close();\n           json3 \u003d new String(buffer, \"UTF-8\");\n "],"spec":"add source directly %s.inputOnly","subStack1":-1,"subStack2":-1,"type":" ","typeName":""}
+{"color":-16729254,"id":"11","nextBlock":13,"opCode":"strToListMap","parameters":["@20","quran_list"],"spec":"JSON %s to %m.listMap","subStack1":-1,"subStack2":-1,"type":" ","typeName":""}
+{"color":-559806,"id":"20","nextBlock":-1,"opCode":"getVar","parameters":[],"spec":"json3","subStack1":-1,"subStack2":-1,"type":"s","typeName":""}
+{"color":-876233,"id":"13","nextBlock":18,"opCode":"if","parameters":["@14"],"spec":"if %b then","subStack1":27,"subStack2":-1,"type":"c","typeName":""}
+{"color":-16729254,"id":"14","nextBlock":-1,"opCode":"\u003e","parameters":["@15","0"],"spec":"%d \u003e %d","subStack1":-1,"subStack2":-1,"type":"b","typeName":""}
+{"color":-3123898,"id":"15","nextBlock":-1,"opCode":"lengthList","parameters":["quran_list"],"spec":"length of %m.list","subStack1":-1,"subStack2":-1,"type":"d","typeName":""}
+{"color":-16729254,"id":"27","nextBlock":17,"opCode":"addSourceDirectly","parameters":["Listview1Adapter adapter \u003d new Listview1Adapter(quran_list, requireContext());\nlistview1.setAdapter(adapter);"],"spec":"add source directly %s.inputOnly","subStack1":-1,"subStack2":-1,"type":" ","typeName":""}
+{"color":-10589996,"id":"17","nextBlock":-1,"opCode":"listRefresh","parameters":["listview1"],"spec":"%m.listview refreshData","subStack1":-1,"subStack2":-1,"type":" ","typeName":""}
+{"color":-16729254,"id":"18","nextBlock":19,"opCode":"addSourceDirectly","parameters":["} catch(Exception e) {\n"],"spec":"add source directly %s.inputOnly","subStack1":-1,"subStack2":-1,"type":" ","typeName":""}
+{"color":-16729254,"id":"19","nextBlock":21,"opCode":"addSourceDirectly","parameters":["}"],"spec":"add source directly %s.inputOnly","subStack1":-1,"subStack2":-1,"type":" ","typeName":""}
+{"color":-12173221,"id":"21","nextBlock":23,"opCode":"CommandBlockJava","parameters":["ArrayList\u003cHashMap\u003cString, Object\u003e\u003e _data;","","","","add"],"spec":"Java Command Block: reference %s distance %d frontend %d backend %d command %m.Command","subStack1":22,"subStack2":-1,"type":"c","typeName":""}
+{"color":-16729254,"id":"22","nextBlock":-1,"opCode":"addSourceDirectly","parameters":["private Context context;"],"spec":"add source directly %s.inputOnly","subStack1":-1,"subStack2":-1,"type":" ","typeName":""}
+{"color":-12173221,"id":"23","nextBlock":25,"opCode":"CommandBlockJava","parameters":["ArrayList\u003cHashMap\u003cString, Object\u003e\u003e _data;","4","","","add"],"spec":"Java Command Block: reference %s distance %d frontend %d backend %d command %m.Command","subStack1":24,"subStack2":-1,"type":"c","typeName":""}
+{"color":-16729254,"id":"24","nextBlock":-1,"opCode":"addSourceDirectly","parameters":["this.context \u003d context;"],"spec":"add source directly %s.inputOnly","subStack1":-1,"subStack2":-1,"type":" ","typeName":""}
+{"color":-12173221,"id":"25","nextBlock":28,"opCode":"CommandBlockJava","parameters":["ArrayList\u003cHashMap\u003cString, Object\u003e\u003e _arr","","","","find-replace-first"],"spec":"Java Command Block: reference %s distance %d frontend %d backend %d command %m.Command","subStack1":26,"subStack2":-1,"type":"c","typeName":""}
+{"color":-16729254,"id":"26","nextBlock":-1,"opCode":"addSourceDirectly","parameters":["ArrayList\u003cHashMap\u003cString, Object\u003e\u003e _arr, Context context"],"spec":"add source directly %s.inputOnly","subStack1":-1,"subStack2":-1,"type":" ","typeName":""}
+{"color":-3793069,"id":"28","nextBlock":-1,"opCode":"Hide Scroll","parameters":["listview1"],"spec":"%m.listview hide scroll bar","subStack1":-1,"subStack2":-1,"type":" ","typeName":""}
+
+@QuranIndexFragmentActivity.java_listview1_onItemClicked
+{"color":-11165715,"id":"10","nextBlock":11,"opCode":"intentSetScreen","parameters":["go","QuranActivity"],"spec":"%m.intent setScreen %m.activity","subStack1":-1,"subStack2":-1,"type":" ","typeName":""}
+{"color":-11165715,"id":"11","nextBlock":14,"opCode":"intentPutExtra","parameters":["go","sorah","@12"],"spec":"%m.intent putExtra key %s value %s","subStack1":-1,"subStack2":-1,"type":" ","typeName":""}
+{"color":-16729254,"id":"12","nextBlock":-1,"opCode":"toString","parameters":["@16"],"spec":"toString %d without decimal","subStack1":-1,"subStack2":-1,"type":"s","typeName":""}
+{"color":-7711273,"id":"16","nextBlock":-1,"opCode":"getArg","parameters":[],"spec":"position","subStack1":-1,"subStack2":-1,"type":"d","typeName":""}
+{"color":-11165715,"id":"14","nextBlock":-1,"opCode":"startActivity","parameters":["go"],"spec":"StartActivity %m.intent","subStack1":-1,"subStack2":-1,"type":" ","typeName":""}
+
+@QuranIndexFragmentActivity.java_listview1_onBindCustomView
+{"color":-16732572,"id":"10","nextBlock":13,"opCode":"setRadiusAndStrokeView","parameters":["linear1","15","1","R.color.card_stroke","R.color.pop"],"spec":"%m.view setCornerRadius %d stroke %d strokeColor %m.color bgColor %m.color","subStack1":-1,"subStack2":-1,"type":" ","typeName":""}
+{"color":-10589996,"id":"13","nextBlock":14,"opCode":"setText","parameters":["textviewTranslation","@67"],"spec":"%m.textview setText %s","subStack1":-1,"subStack2":-1,"type":" ","typeName":""}
+{"color":-16729254,"id":"67","nextBlock":-1,"opCode":"stringJoin","parameters":["@20","@68"],"spec":"join %s and %s","subStack1":-1,"subStack2":-1,"type":"s","typeName":""}
+{"color":-3123898,"id":"20","nextBlock":-1,"opCode":"getAtListMap","parameters":["@21","translation","@22"],"spec":"get value at %d key %s of %m.listMap","subStack1":-1,"subStack2":-1,"type":"s","typeName":""}
+{"color":-7711273,"id":"21","nextBlock":-1,"opCode":"getArg","parameters":[],"spec":"position","subStack1":-1,"subStack2":-1,"type":"d","typeName":""}
+{"color":-7711273,"id":"22","nextBlock":-1,"opCode":"getArg","parameters":[],"spec":"data","subStack1":-1,"subStack2":-1,"type":"l","typeName":"List Map"}
+{"color":-16729254,"id":"68","nextBlock":-1,"opCode":"stringJoin","parameters":[" | ","@69"],"spec":"join %s and %s","subStack1":-1,"subStack2":-1,"type":"s","typeName":""}
+{"color":-3123898,"id":"69","nextBlock":-1,"opCode":"getAtListMap","parameters":["@70","type","@71"],"spec":"get value at %d key %s of %m.listMap","subStack1":-1,"subStack2":-1,"type":"s","typeName":""}
+{"color":-7711273,"id":"70","nextBlock":-1,"opCode":"getArg","parameters":[],"spec":"position","subStack1":-1,"subStack2":-1,"type":"d","typeName":""}
+{"color":-7711273,"id":"71","nextBlock":-1,"opCode":"getArg","parameters":[],"spec":"data","subStack1":-1,"subStack2":-1,"type":"l","typeName":"List Map"}
+{"color":-10589996,"id":"14","nextBlock":15,"opCode":"setText","parameters":["textviewTransliteration","@23"],"spec":"%m.textview setText %s","subStack1":-1,"subStack2":-1,"type":" ","typeName":""}
+{"color":-3123898,"id":"23","nextBlock":-1,"opCode":"getAtListMap","parameters":["@24","transliteration","@25"],"spec":"get value at %d key %s of %m.listMap","subStack1":-1,"subStack2":-1,"type":"s","typeName":""}
+{"color":-7711273,"id":"24","nextBlock":-1,"opCode":"getArg","parameters":[],"spec":"position","subStack1":-1,"subStack2":-1,"type":"d","typeName":""}
+{"color":-7711273,"id":"25","nextBlock":-1,"opCode":"getArg","parameters":[],"spec":"data","subStack1":-1,"subStack2":-1,"type":"l","typeName":"List Map"}
+{"color":-10589996,"id":"15","nextBlock":47,"opCode":"setText","parameters":["textviewTotal","@16"],"spec":"%m.textview setText %s","subStack1":-1,"subStack2":-1,"type":" ","typeName":""}
+{"color":-16729254,"id":"16","nextBlock":-1,"opCode":"stringJoin","parameters":["@29"," Ayah"],"spec":"join %s and %s","subStack1":-1,"subStack2":-1,"type":"s","typeName":""}
+{"color":-16729254,"id":"29","nextBlock":-1,"opCode":"toString","parameters":["@30"],"spec":"toString %d without decimal","subStack1":-1,"subStack2":-1,"type":"s","typeName":""}
+{"color":-16729254,"id":"30","nextBlock":-1,"opCode":"toNumber","parameters":["@26"],"spec":"toNumber %s","subStack1":-1,"subStack2":-1,"type":"d","typeName":""}
+{"color":-3123898,"id":"26","nextBlock":-1,"opCode":"getAtListMap","parameters":["@27","total_verses","@28"],"spec":"get value at %d key %s of %m.listMap","subStack1":-1,"subStack2":-1,"type":"s","typeName":""}
+{"color":-7711273,"id":"27","nextBlock":-1,"opCode":"getArg","parameters":[],"spec":"position","subStack1":-1,"subStack2":-1,"type":"d","typeName":""}
+{"color":-7711273,"id":"28","nextBlock":-1,"opCode":"getArg","parameters":[],"spec":"data","subStack1":-1,"subStack2":-1,"type":"l","typeName":"List Map"}
+{"color":-10589996,"id":"47","nextBlock":48,"opCode":"setText","parameters":["textviewName","@66"],"spec":"%m.textview setText %s","subStack1":-1,"subStack2":-1,"type":" ","typeName":""}
+{"color":-16729254,"id":"66","nextBlock":-1,"opCode":"asdString","parameters":["String.format(\"surah%03d\", _position + 1)"],"spec":"string %s.inputOnly","subStack1":-1,"subStack2":-1,"type":"s","typeName":""}
+{"color":-10589996,"id":"48","nextBlock":31,"opCode":"setTypeface","parameters":["textviewName","surah_name_v4","normal"],"spec":"%m.textview setTypeface %m.font with style %m.typeface","subStack1":-1,"subStack2":-1,"type":" ","typeName":""}
+{"color":-876233,"id":"31","nextBlock":-1,"opCode":"ifElse","parameters":["@32"],"spec":"if %b then","subStack1":38,"subStack2":37,"type":"e","typeName":""}
+{"color":-16729254,"id":"32","nextBlock":-1,"opCode":"stringEquals","parameters":["@33","meccan"],"spec":"%s equals %s","subStack1":-1,"subStack2":-1,"type":"b","typeName":""}
+{"color":-3123898,"id":"33","nextBlock":-1,"opCode":"getAtListMap","parameters":["@34","type","@35"],"spec":"get value at %d key %s of %m.listMap","subStack1":-1,"subStack2":-1,"type":"s","typeName":""}
+{"color":-7711273,"id":"34","nextBlock":-1,"opCode":"getArg","parameters":[],"spec":"position","subStack1":-1,"subStack2":-1,"type":"d","typeName":""}
+{"color":-7711273,"id":"35","nextBlock":-1,"opCode":"getArg","parameters":[],"spec":"data","subStack1":-1,"subStack2":-1,"type":"l","typeName":"List Map"}
+{"color":-10589996,"id":"38","nextBlock":-1,"opCode":"setImage","parameters":["type","kaaba"],"spec":"%m.imageview setImage %m.resource","subStack1":-1,"subStack2":-1,"type":" ","typeName":""}
+{"color":-10589996,"id":"37","nextBlock":-1,"opCode":"setImage","parameters":["type","mosque"],"spec":"%m.imageview setImage %m.resource","subStack1":-1,"subStack2":-1,"type":" ","typeName":""}
+

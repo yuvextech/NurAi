@@ -1,0 +1,10 @@
+[
+  {
+    "reference": "android:windowSoftInputMode\u003d\"stateHidden\" /\u003e",
+    "input": "\u003eAndroidManifest.xml\n      android:windowSoftInputMode\u003d\"adjustResize\" /\u003e",
+    "distance": 0,
+    "before": 0,
+    "after": 0,
+    "command": "replace"
+  }
+]

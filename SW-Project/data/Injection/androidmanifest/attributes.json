@@ -1,0 +1,106 @@
+[
+  {
+    "name": "_application_attrs",
+    "value": "android:theme\u003d\"@style/Theme.NurAiProject\""
+  },
+  {
+    "name": "_application_attrs",
+    "value": "android:supportsRtl\u003d\"true\""
+  },
+  {
+    "name": "ChatFragmentActivity",
+    "value": "android:configChanges\u003d\"orientation|screenSize|keyboardHidden|smallestScreenSize|screenLayout\""
+  },
+  {
+    "name": "ChatFragmentActivity",
+    "value": "android:hardwareAccelerated\u003d\"true\""
+  },
+  {
+    "name": "ChatFragmentActivity",
+    "value": "android:supportsPictureInPicture\u003d\"true\""
+  },
+  {
+    "name": "ChatFragmentActivity",
+    "value": "android:screenOrientation\u003d\"portrait\""
+  },
+  {
+    "name": "ChatFragmentActivity",
+    "value": "android:theme\u003d\"@style/Theme.NurAiProject\""
+  },
+  {
+    "name": "ChatFragmentActivity",
+    "value": "android:windowSoftInputMode\u003d\"adjustResize\""
+  },
+  {
+    "name": "HomeFragmentActivity",
+    "value": "android:configChanges\u003d\"orientation|screenSize|keyboardHidden|smallestScreenSize|screenLayout\""
+  },
+  {
+    "name": "HomeFragmentActivity",
+    "value": "android:hardwareAccelerated\u003d\"true\""
+  },
+  {
+    "name": "HomeFragmentActivity",
+    "value": "android:supportsPictureInPicture\u003d\"true\""
+  },
+  {
+    "name": "HomeFragmentActivity",
+    "value": "android:screenOrientation\u003d\"portrait\""
+  },
+  {
+    "name": "HomeFragmentActivity",
+    "value": "android:theme\u003d\"@style/Theme.NurAiProject\""
+  },
+  {
+    "name": "HomeFragmentActivity",
+    "value": "android:windowSoftInputMode\u003d\"stateHidden\""
+  },
+  {
+    "name": "QuranActivity",
+    "value": "android:configChanges\u003d\"orientation|screenSize|keyboardHidden|smallestScreenSize|screenLayout\""
+  },
+  {
+    "name": "QuranActivity",
+    "value": "android:hardwareAccelerated\u003d\"true\""
+  },
+  {
+    "name": "QuranActivity",
+    "value": "android:supportsPictureInPicture\u003d\"true\""
+  },
+  {
+    "name": "QuranActivity",
+    "value": "android:screenOrientation\u003d\"portrait\""
+  },
+  {
+    "name": "QuranActivity",
+    "value": "android:theme\u003d\"@style/Theme.NurAiProject\""
+  },
+  {
+    "name": "QuranActivity",
+    "value": "android:windowSoftInputMode\u003d\"stateHidden\""
+  },
+  {
+    "name": "MainActivity",
+    "value": "android:configChanges\u003d\"orientation|screenSize|keyboardHidden|smallestScreenSize|screenLayout\""
+  },
+  {
+    "name": "MainActivity",
+    "value": "android:hardwareAccelerated\u003d\"true\""
+  },
+  {
+    "name": "MainActivity",
+    "value": "android:supportsPictureInPicture\u003d\"true\""
+  },
+  {
+    "name": "MainActivity",
+    "value": "android:screenOrientation\u003d\"portrait\""
+  },
+  {
+    "name": "MainActivity",
+    "value": "android:theme\u003d\"@style/Theme.NurAiProject\""
+  },
+  {
+    "name": "MainActivity",
+    "value": "android:windowSoftInputMode\u003d\"stateHidden\""
+  }
+]
